@@ -51,9 +51,10 @@ stats_dict = {
     'T2MEAN': ['min', 'max', 'avg'],    
     }
 
-models = ['access1.0', 'access1.3', 'bcc-csm1.1', 'canesm2', \
-          'ccsm4', 'csiro-mk3.6.0', 'fgoals-g2', 'gfdl-cm3', \
-          'giss-e2-h', 'miroc5', 'mri-cgcm3', 'noresm1-m']
+#models = ['access1.0', 'access1.3', 'bcc-csm1.1', 'canesm2', \
+#          'ccsm4', 'csiro-mk3.6.0', 'fgoals-g2', 'gfdl-cm3', \
+#          'giss-e2-h', 'miroc5', 'mri-cgcm3', 'noresm1-m']
+models = ['noresm1-m']
 
 mod_cols = ['indigo', 'blue', 'deepskyblue', \
             'darkgreen', 'lime', 'yellow', \
@@ -78,69 +79,81 @@ with open(station_file) as csv_file:
 #---------------------------------------------------------------------------
 # Load GHCND obs.
 #---------------------------------------------------------------------------
-load_obs_all = 0
-pickle_file = pickle_dir + '/obs_stats.pkl'
-if load_obs_all == 0:
-    #--- If not loading all obs, just load stats pickle file.
-    if os.path.isfile(pickle_file):
-        print 'reading pickle file ', pickle_file
-        (obs,yy_obs) = pickle.load(open(pickle_file, 'rb'))
-    else:
-        sys.exit('cannot see ' + pickle_file)
+vars_obs = []
+for var in vars_mod:
+    vars_obs.append(var_obs_dict[var])
+
+pf = pickle_dir + '/obs_daily.pkl'
+if os.path.isfile(pf):
+    print 'Loading ', pf
+    (obs_all, obs_dts_all, stns, latpts, lonpts, elevs) = \
+               pickle.load(open(pf, 'rb'))
 else:
-    vars_obs = []
-    for var in vars_mod:
-        vars_obs.append(var_obs_dict[var])
-
-    #--- Load GHCND obs; get seasonal stats on them.
-    (data_all, dts_all) = read_ghcnd(stns, vars_obs, ghcnd_dir, sdt, edt_obs)
-
-    obs = {}
-    yy_obs = {}
-    for var in vars_mod:
-        varo = var_obs_dict[var]
-        stats = stats_dict[var]
-        for stat in stats:
-            (obs[varo,stat], yy_obs[varo,stat]) = get_seasonal_stats_ghcnd(\
-                data_all,dts_all,stns,varo,stat)
-    pickle.dump((obs,yy_obs), open(pickle_file,'wb'), -1)
+    (obs_all, obs_dts_all) = read_ghcnd(stns, vars_obs, ghcnd_dir, sdt, edt_obs)
+    print 'Creating ', pf
+    pickle.dump((obs_all, obs_dts_all, stns, latpts, lonpts, elevs), \
+                open(pf,'wb'), -1)
 
 #---------------------------------------------------------------------------
 # Load model data.
 #---------------------------------------------------------------------------
-load_mod_all = 0
-pf_mod_stats = pickle_dir + '/mod_stats.pkl'
-if load_mod_all == 0:
-    #--- If not loading all model data, just load stats pickle file.
-    if os.path.isfile(pf_mod_stats):
-        print 'reading pickle file ', pf_mod_stats
-        (mod,yy_mod) = pickle.load(open(pf_mod_stats, 'rb'))
-    else:
-        sys.exit('cannot see ' + pf_mod_stats)
-else:
+#(data_all, dts_unique, models, vars_all, stns) = \
+#           load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
+#                             data_dirs, sdt, edt, vars_mod, pickle_dir, 0)
+#sys.exit()
 
-#    (data_all, dts_unique, models, vars_all, stns) = \
-#               load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
-#                                 data_dirs, sdt, edt, vars_mod, pickle_dir, 0)
-    data_all = {}
-    dts_all = []
+pf_all = pickle_dir + '/mod_daily.pkl'
+if os.path.isfile(pf):
+    print 'Loading ', pf_all
+    (mod_all, mod_dts_all) = pickle.load(open(pf_all, 'rb'))
+else:
+    mod_all = {}
+    mod_dts_all = []
     for m in range(len(models)):
         model = models[m]
         pf = get_mod_pkl_name(pickle_dir, model, sdt, edt)
-        print 'loading ', pf
+        print 'Loading ', pf
         (model, data_c, dts_unique, vars, stns) = pickle.load(open(pf, 'rb'))
-        data_all[model] = data_c
-        dts_all = dts_all + dts_unique
-    mod = {}
-    yy_mod = {}
-    for var in vars_mod:
-        stats = stats_dict[var]        
-        for stat in stats:
-            (mod[var,stat], yy_mod[var,stat]) = get_seasonal_stats(\
-                data_all, dts_unique, models, stns, var, stat)
-    pickle.dump((mod,yy_mod), open(pf_mod_stats,'wb'), -1)
-#    sys.exit()
-#sys.exit()
+        mod_all[model] = data_c
+        mod_dts_all = mod_dts_all + dts_unique
+    print 'Creating ', pf_all
+    pickle.dump((mod_all, mod_dts_all), open(pf_all,'wb'), -1)
+
+sys.exit()
+
+#load_mod_all = 0
+#pf_mod_stats = pickle_dir + '/mod_stats.pkl'
+#if load_mod_all == 0:
+#    #--- If not loading all model data, just load stats pickle file.
+#    if os.path.isfile(pf_mod_stats):
+#        print 'reading pickle file ', pf_mod_stats
+#        (mod,yy_mod) = pickle.load(open(pf_mod_stats, 'rb'))
+#    else:
+#        sys.exit('cannot see ' + pf_mod_stats)
+#else:
+#
+##    (data_all, dts_unique, models, vars_all, stns) = \
+#               load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
+#                                 data_dirs, sdt, edt, vars_mod, pickle_dir, 0)
+#    data_all = {}
+#    dts_all = []
+#    for m in range(len(models)):
+#        model = models[m]
+#        pf = get_mod_pkl_name(pickle_dir, model, sdt, edt)
+#        print 'loading ', pf
+#        (model, data_c, dts_unique, vars, stns) = pickle.load(open(pf, 'rb'))
+#        data_all[model] = data_c
+#        dts_all = dts_all + dts_unique
+#    mod = {}
+#    yy_mod = {}
+#    for var in vars_mod:
+#        stats = stats_dict[var]        
+#        for stat in stats:
+#            (mod[var,stat], yy_mod[var,stat]) = get_seasonal_stats(\
+#                data_all, dts_unique, models, stns, var, stat)
+#    pickle.dump((mod,yy_mod), open(pf_mod_stats,'wb'), -1)
+##    sys.exit()
+##sys.exit()
 
 #---------------------------------------------------------------------------
 # 
