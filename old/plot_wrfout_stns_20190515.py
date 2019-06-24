@@ -1,10 +1,12 @@
 #!/usr/bin/python
 import  sys, os, os.path, time, glob, re
 import numpy as np
+from make_cmap import *
+from netCDF4 import Dataset as NetCDFFile
 from utils_wrfout import *
 from utils_date import *
 from utils_ghcnd_obs import *
-import cPickle as pickle  #-- cPickle is faster, but deprecated in python 3.0
+import pickle
 import csv
 
 #---------------------------------------------------------------------------
@@ -12,8 +14,7 @@ import csv
 #---------------------------------------------------------------------------
 rcm_dir    = '/home/disk/spock/jbaars/rcm'
 py_dir     = rcm_dir + '/python'
-#plot_dir   = rcm_dir + '/plots'
-plot_dir   = rcm_dir + '/plots/new'
+plot_dir   = rcm_dir + '/plots'
 pickle_dir = rcm_dir + '/pickle'
 data_dir   = rcm_dir + '/data'
 obs_dir    = rcm_dir + '/obs'
@@ -29,35 +30,29 @@ station_file = obs_dir + '/station_file.txt'
 # Settings.
 #---------------------------------------------------------------------------
 #vars_mod =['PREC', 'T2MAX', 'T2MIN', 'SPDUV10MAX', 'SPDUV10MEAN', 'SPDUV10STD']
-vars_mod = ['PREC', 'T2MAX', 'T2MIN', 'T2MEAN']
+vars_mod = ['PREC', 'T2MAX', 'T2MIN']
 
 sdt = '197001'
 edt = '209912'
 
-#--- GHCND data downloaded through June 2019, so 2019 is a partial year, so
-#--- only include obs through 2018.
-edt_obs = '201812' 
-
 var_obs_dict = {
     'PREC': 'PRCP',
     'T2MAX': 'TMAX',
-    'T2MIN': 'TMIN',
-    'T2MEAN': 'T2MEAN'    
+    'T2MIN': 'TMIN'
     }
 stats_dict = {
     'PREC': ['max', 'tot'],
     'T2MAX': ['max', 'avg'],
-    'T2MIN': ['min', 'max', 'avg'],
-    'T2MEAN': ['min', 'max', 'avg'],    
+    'T2MIN': ['min', 'max', 'avg']
     }
 
-models = ['access1.0', 'access1.3', 'bcc-csm1.1', 'canesm2', \
-          'ccsm4', 'csiro-mk3.6.0', 'fgoals-g2', 'gfdl-cm3', \
-          'giss-e2-h', 'miroc5', 'mri-cgcm3', 'noresm1-m']
-
+models   = ['gfdl-cm3', 'miroc5', 'bcc-csm1.1', \
+            'access1.3', 'canesm2', 'noresm1-m', \
+            'ccsm4', 'csiro-mk3.6.0', 'fgoals-g2' ]
 mod_cols = ['indigo', 'blue', 'deepskyblue', \
             'darkgreen', 'lime', 'yellow', \
-            'magenta', 'red', 'salmon', 'gray', 'darkgray', 'lightblue']
+            'magenta', 'red', 'salmon']
+stn_cols = ['b', 'r', 'g', 'c', 'm', 'k', 'grey']
 
 #---------------------------------------------------------------------------
 # Load stations file.
@@ -79,7 +74,7 @@ with open(station_file) as csv_file:
 # Load GHCND obs.
 #---------------------------------------------------------------------------
 load_obs_all = 0
-pickle_file = pickle_dir + '/obs_stats.pkl'
+pickle_file = pickle_dir + '/obs_stats.pickle'
 if load_obs_all == 0:
     #--- If not loading all obs, just load stats pickle file.
     if os.path.isfile(pickle_file):
@@ -93,8 +88,7 @@ else:
         vars_obs.append(var_obs_dict[var])
 
     #--- Load GHCND obs; get seasonal stats on them.
-    (data_all, dts_all) = read_ghcnd(stns, vars_obs, ghcnd_dir, sdt, edt_obs)
-
+    (data_all, dts_all) = read_ghcnd(stns, vars_obs, ghcnd_dir, sdt, edt)
     obs = {}
     yy_obs = {}
     for var in vars_mod:
@@ -103,13 +97,14 @@ else:
         for stat in stats:
             (obs[varo,stat], yy_obs[varo,stat]) = get_seasonal_stats_ghcnd(\
                 data_all,dts_all,stns,varo,stat)
+
     pickle.dump((obs,yy_obs), open(pickle_file,'wb'), -1)
 
 #---------------------------------------------------------------------------
 # Load model data.
 #---------------------------------------------------------------------------
 load_mod_all = 0
-pf_mod_stats = pickle_dir + '/mod_stats.pkl'
+pf_mod_stats = pickle_dir + '/mod_stats.pickle'
 if load_mod_all == 0:
     #--- If not loading all model data, just load stats pickle file.
     if os.path.isfile(pf_mod_stats):
@@ -119,54 +114,36 @@ if load_mod_all == 0:
         sys.exit('cannot see ' + pf_mod_stats)
 else:
 
-#    (data_all, dts_unique, models, vars_all, stns) = \
-#               load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
-#                                 data_dirs, sdt, edt, vars_mod, pickle_dir, 0)
+    for m in range(len(models)):
+        model = models[m]
+        pf = pickle_dir + '/extract_' + model +'_' + sdt + '_' + edt + '.pickle'
+        if not os.path.isfile(pf):
+            (data_all, dts_unique, models, vars_all, stns) = \
+                       load_extract_data(geo_em, stns, latpts, lonpts, elevs, \
+                                         models, data_dirs, sdt, edt, \
+                                         vars_mod, pickle_dir, 0)
+
     data_all = {}
     dts_all = []
     for m in range(len(models)):
         model = models[m]
-        pf = get_mod_pkl_name(pickle_dir, model, sdt, edt)
+        pf = pickle_dir + '/extract_' + model +'_' + sdt + '_' + edt + '.pickle'
         print 'loading ', pf
         (model, data_c, dts_unique, vars, stns) = pickle.load(open(pf, 'rb'))
         data_all[model] = data_c
         dts_all = dts_all + dts_unique
+
     mod = {}
     yy_mod = {}
     for var in vars_mod:
         stats = stats_dict[var]        
         for stat in stats:
             (mod[var,stat], yy_mod[var,stat]) = get_seasonal_stats(\
-                data_all, dts_unique, models, stns, var, stat)
+                data_all,dts_unique,models,stns,var,stat)
     pickle.dump((mod,yy_mod), open(pf_mod_stats,'wb'), -1)
-#    sys.exit()
-#sys.exit()
 
-#---------------------------------------------------------------------------
-# 
-#---------------------------------------------------------------------------
-'''
-var = 'T2MEAN'
-stat = 'max'
-statplot = mod[(var,stat)]
-stn = 'KSEA'
-season = 'annual'
-for m in range(len(models)):
-    mod = models[m]
-    print '-----'
-    yyyy = '2097'
-    key = (season,mod,stn,yyyy)
-    print mod, var, stat, stn, yyyy, season, statplot[key] 
-    yyyy = '2098'
-    key = (season,mod,stn,yyyy)
-    print mod, var, stat, stn, yyyy, season, statplot[key] 
-    yyyy = '2099'   
-    key = (season,mod,stn,yyyy)
-    print mod, var, stat, stn, yyyy, season, statplot[key]
+sys.exit()
 
-#sys.exit()
-'''
-    
 #---------------------------------------------------------------------------
 # Make a time series plots of each station, variable, stat and season.
 #---------------------------------------------------------------------------
@@ -188,6 +165,6 @@ for ss in range(len(stns)):
                                models, titlein, plotfname, var, stat, \
                                mod_cols, [season])
 #                sys.exit()
-    sys.exit()
+#    sys.exit()
 sys.exit()
 

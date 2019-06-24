@@ -1,11 +1,14 @@
 #!/usr/bin/python
 import  sys, os, os.path, time, glob, re
 import numpy as np
+from make_cmap import *
+from netCDF4 import Dataset as NetCDFFile
 from utils_wrfout import *
 from utils_date import *
 from utils_ghcnd_obs import *
-import cPickle as pickle  #-- cPickle is faster, but deprecated in python 3.0
+import pickle
 import csv
+import json
 
 #---------------------------------------------------------------------------
 # Paths.
@@ -28,8 +31,8 @@ station_file = obs_dir + '/station_file.txt'
 #---------------------------------------------------------------------------
 # Settings.
 #---------------------------------------------------------------------------
-#vars_mod =['PREC', 'T2MAX', 'T2MIN', 'SPDUV10MAX', 'SPDUV10MEAN', 'SPDUV10STD']
-vars_mod = ['PREC', 'T2MAX', 'T2MIN', 'T2MEAN']
+#vars_mod = ['PREC', 'T2MAX', 'T2MIN']
+vars_mod = ['T2MAX']
 
 sdt = '197001'
 edt = '209912'
@@ -54,61 +57,45 @@ stats_dict = {
 models = ['access1.0', 'access1.3', 'bcc-csm1.1', 'canesm2', \
           'ccsm4', 'csiro-mk3.6.0', 'fgoals-g2', 'gfdl-cm3', \
           'giss-e2-h', 'miroc5', 'mri-cgcm3', 'noresm1-m']
+models = ['access1.0']
 
-mod_cols = ['indigo', 'blue', 'deepskyblue', \
-            'darkgreen', 'lime', 'yellow', \
-            'magenta', 'red', 'salmon', 'gray', 'darkgray', 'lightblue']
+temp_max = 273 + 60
+temp_min = 273 - 60
 
-#---------------------------------------------------------------------------
-# Load stations file.
-#---------------------------------------------------------------------------
-stns   = []
-latpts = []
-lonpts = []
-elevs  = []
-with open(station_file) as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=',')
-    line_count = 0
-    for row in csv_reader:
-        stns.append(row[0])
-        latpts.append(float(row[1]))
-        lonpts.append(float(row[2]))
-        elevs.append(float(row[3]))
+for m in range(len(models)):
+    data_all = {}
+    dts_all = []
+    model = models[m]
 
-#---------------------------------------------------------------------------
-# Load GHCND obs.
-#---------------------------------------------------------------------------
-load_obs_all = 0
-pickle_file = pickle_dir + '/obs_stats.pkl'
-if load_obs_all == 0:
-    #--- If not loading all obs, just load stats pickle file.
-    if os.path.isfile(pickle_file):
-        print 'reading pickle file ', pickle_file
-        (obs,yy_obs) = pickle.load(open(pickle_file, 'rb'))
-    else:
-        sys.exit('cannot see ' + pickle_file)
-else:
-    vars_obs = []
-    for var in vars_mod:
-        vars_obs.append(var_obs_dict[var])
+    #--- Get list of extracted files for this model.
+    print 'model = ', model
+    files = get_extract_files(data_dirs, model, sdt, edt, 0)
+    files = list(sorted(set(files)))
 
-    #--- Load GHCND obs; get seasonal stats on them.
-    (data_all, dts_all) = read_ghcnd(stns, vars_obs, ghcnd_dir, sdt, edt_obs)
+    #--- Loop over all extract files, reading them in.
+    for f in range(len(files)):
+        (vardat, ntimes, dt) = load_wrfout(files[f], vars_mod)
 
-    obs = {}
-    yy_obs = {}
-    for var in vars_mod:
-        varo = var_obs_dict[var]
-        stats = stats_dict[var]
-        for stat in stats:
-            (obs[varo,stat], yy_obs[varo,stat]) = get_seasonal_stats_ghcnd(\
-                data_all,dts_all,stns,varo,stat)
-    pickle.dump((obs,yy_obs), open(pickle_file,'wb'), -1)
+        for v in range(len(vars_mod)):
+            var = vars_mod[v]
+            dat_c = vardat[var]
+            x,y,z = dat_c.shape
+            for k in range(z):
+                max_c = np.amax(dat_c[:,:,k])
+                if max_c < temp_min or max_c > temp_max:
+                    print model, ', ', files[f], ', ', k
+                          
+                
 
+
+
+
+
+'''
 #---------------------------------------------------------------------------
 # Load model data.
 #---------------------------------------------------------------------------
-load_mod_all = 0
+load_mod_all = 1
 pf_mod_stats = pickle_dir + '/mod_stats.pkl'
 if load_mod_all == 0:
     #--- If not loading all model data, just load stats pickle file.
@@ -119,9 +106,11 @@ if load_mod_all == 0:
         sys.exit('cannot see ' + pf_mod_stats)
 else:
 
-#    (data_all, dts_unique, models, vars_all, stns) = \
-#               load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
-#                                 data_dirs, sdt, edt, vars_mod, pickle_dir, 0)
+    (data_all, dts_unique, models, vars_all, stns) = \
+               load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
+                                 data_dirs, sdt, edt, vars_mod, pickle_dir, 0)
+    sys.exit()
+    
     data_all = {}
     dts_all = []
     for m in range(len(models)):
@@ -139,34 +128,9 @@ else:
             (mod[var,stat], yy_mod[var,stat]) = get_seasonal_stats(\
                 data_all, dts_unique, models, stns, var, stat)
     pickle.dump((mod,yy_mod), open(pf_mod_stats,'wb'), -1)
-#    sys.exit()
-#sys.exit()
 
-#---------------------------------------------------------------------------
-# 
-#---------------------------------------------------------------------------
-'''
-var = 'T2MEAN'
-stat = 'max'
-statplot = mod[(var,stat)]
-stn = 'KSEA'
-season = 'annual'
-for m in range(len(models)):
-    mod = models[m]
-    print '-----'
-    yyyy = '2097'
-    key = (season,mod,stn,yyyy)
-    print mod, var, stat, stn, yyyy, season, statplot[key] 
-    yyyy = '2098'
-    key = (season,mod,stn,yyyy)
-    print mod, var, stat, stn, yyyy, season, statplot[key] 
-    yyyy = '2099'   
-    key = (season,mod,stn,yyyy)
-    print mod, var, stat, stn, yyyy, season, statplot[key]
+sys.exit()
 
-#sys.exit()
-'''
-    
 #---------------------------------------------------------------------------
 # Make a time series plots of each station, variable, stat and season.
 #---------------------------------------------------------------------------
@@ -191,3 +155,4 @@ for ss in range(len(stns)):
     sys.exit()
 sys.exit()
 
+'''

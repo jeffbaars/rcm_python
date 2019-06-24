@@ -46,8 +46,8 @@ ylims = {
     'T2MINmax': [-30.0, 25.0],
     'T2MINavg': [-20, 25.0],
     'T2MEANmin': [-30.0, 25.0],
-    'T2MEANmax': [-10.0, 50.0],
-    'T2MEANavg': [-10.0, 50.0],
+    'T2MEANmax': [-30.0, 25.0],
+    'T2MEANavg': [-20, 25.0],
     'SPDUV10MEANavg': [0, 5.0],
     'SPDUV10MAXmax': [0, 20.0]    
     }
@@ -105,8 +105,7 @@ maxlon = {
 mm2in           = 0.0393700787
 min_season_days = 85
 std_lapse       = 0.0065  #-- std. atmos. lapse rate
-#smooth_fact     = 5       #-- odd number, used for smoothing time series plots.
-smooth_fact     = 1       #-- odd number, used for smoothing time series plots.
+smooth_fact     = 5       #-- odd number, used for smoothing time series plots.
 
 fs      = 9
 titlefs = 9
@@ -448,8 +447,8 @@ def get_plotfname(plot_dir, stn, sdt, edt, season, var, stat):
 def get_title(season, stn, var, stat, years):
     titleout = station_name_dict[stn] + ' (' + stn.upper() + '), ' + \
                seasons_lab[season] + ' ' + labels[var+stat] + ', ' + \
-               str(years[0]) + ' - ' + str(years[len(years)-1])
-
+               str(years[0]) + ' - ' + str(years[len(years)-1]) + \
+               ', ' + str(smooth_fact) + '-pt smoothing'
     return titleout
 
 #---------------------------------------------------------------------------
@@ -655,16 +654,20 @@ def get_seasonal_files_new(files):
         else:
             winters[yyyy] = np.nan
 '''
+
+
 #---------------------------------------------------------------------------
 # Get seasonal stats (totals or averages currently).
 #---------------------------------------------------------------------------
 def get_seasonal_stats(data_all, dts_all, models, stns, var, stat):
 
-    out_sum   = {}
-    out_avg   = {}
-    out_max   = {}
-    out_min   = {}
+    out_sum = {}
+    out_avg = {}
+    out_max = {}
+    out_min = {}
+        
     years_all = []
+    stn_pr = 'KSEA'
     
     for m in range(len(models)):
         mod = models[m]
@@ -678,11 +681,6 @@ def get_seasonal_stats(data_all, dts_all, models, stns, var, stat):
                 mm = dts_all[d][4:6]
                 years_mod_stn.append(yyyy)
 
-                #--- Very first date of all model runs will have unusable
-                #--- (all 0's) in the fields.  So don't try and use it.
-                if dts_all[d] == '1970010100':
-                    continue
-
                 if ((var,stn,dts_all[d]) in data_all_c):
                     dat_c = data_all_c[var,stn,dts_all[d]]
                 else:
@@ -692,25 +690,195 @@ def get_seasonal_stats(data_all, dts_all, models, stns, var, stat):
                     out_min[season,mod,stn,yyyy] = np.nan
                     continue
 
-                #--- annual is all days so get sum/max/min for every dts_all.
-                (ndays, out_sum, out_max, out_min) = \
-                        get_season_summaxmin(dat_c, mod, stn, 'annual',yyyy,mm,\
-                                             ndays, out_sum, out_max, out_min)
+                #--- Annual.
+                season = 'annual'
+                #--- Count number of days for this year.
+                if (season+yyyy in ndays):
+                    ndays[season+yyyy] += 1
+                else:
+                    ndays[season+yyyy] = 1
 
+                if ((season,mod,stn,yyyy) in out_sum):
+                    out_sum[season,mod,stn,yyyy] = out_sum[\
+                        season,mod,stn,yyyy] + dat_c
+                else:
+                    out_sum[season,mod,stn,yyyy] = dat_c
+
+                #--- Get maximum.
+                if ((season,mod,stn,yyyy) in out_max):
+                    if (dat_c > out_max[season,mod,stn,yyyy]):
+                        out_max[season,mod,stn,yyyy] = dat_c
+                else:
+                    out_max[season,mod,stn,yyyy] = dat_c
+
+                #--- Get minimum.
+                if ((season,mod,stn,yyyy) in out_min):
+                    if (dat_c < out_min[season,mod,stn,yyyy]):
+                        out_min[season,mod,stn,yyyy] = dat_c
+                else:
+                    out_min[season,mod,stn,yyyy] = dat_c
+
+                #--- Spring.
                 if (mm == '03' or mm == '04' or mm == '05'):
                     season = 'spring'
+                    #--- Count number of days for this year's spring.
+                    if (season+yyyy in ndays):
+                        ndays[season+yyyy] += 1
+                    else:
+                        ndays[season+yyyy] = 1
+
+                    if ((season,mod,stn,yyyy) in out_sum):
+                        out_sum[season,mod,stn,yyyy] = out_sum[\
+                            season,mod,stn,yyyy] + dat_c
+                    else:
+                        out_sum[season,mod,stn,yyyy] = dat_c
+
+                    #--- Get maximum.
+                    if ((season,mod,stn,yyyy) in out_max):
+                        if (dat_c > out_max[season,mod,stn,yyyy]):
+                            out_max[season,mod,stn,yyyy] = dat_c
+
+#                            if (stn == stn_pr):
+#                                print '-----'
+#                                print stn, mod, yyyy, dts_all[d], dat_c
+#                                print 'out_max[season,mod,stn,yyyy] = ', \
+#                                      out_max[season,mod,stn,yyyy]
+                    else:
+                        out_max[season,mod,stn,yyyy] = dat_c
+
+                    #--- Get minimum.
+                    if ((season,mod,stn,yyyy) in out_min):
+                        if (dat_c < out_min[season,mod,stn,yyyy]):
+                            out_min[season,mod,stn,yyyy] = dat_c
+                    else:
+                        out_min[season,mod,stn,yyyy] = dat_c
+                        
+                #--- Summer.
                 if (mm == '06' or mm == '07' or mm == '08'):
                     season = 'summer'
+                    #--- Count number of days for this year's summer.
+                    if (season+yyyy in ndays):
+                        ndays[season+yyyy] += 1
+                    else:
+                        ndays[season+yyyy] = 1
+                    if ((season,mod,stn,yyyy) in out_sum):
+                        out_sum[season,mod,stn,yyyy] = out_sum[\
+                            season,mod,stn,yyyy] + dat_c
+                    else:
+                        out_sum[season,mod,stn,yyyy] = dat_c
+
+                    #--- Get maximum.
+                    if ((season,mod,stn,yyyy) in out_max):
+                        if (dat_c > out_max[season,mod,stn,yyyy]):
+                            out_max[season,mod,stn,yyyy] = dat_c
+                    else:
+                        out_max[season,mod,stn,yyyy] = dat_c
+
+                    #--- Get minimum.
+                    if ((season,mod,stn,yyyy) in out_min):
+                        if (dat_c < out_min[season,mod,stn,yyyy]):
+                            out_min[season,mod,stn,yyyy] = dat_c
+                    else:
+                        out_min[season,mod,stn,yyyy] = dat_c
+
+                #--- Fall.
                 if (mm == '09' or mm == '10' or mm == '11'):
                     season = 'fall'
-                if (mm == '12' or mm == '01' or mm == '02'):
+                    #--- Count number of days for this year's fall.
+                    if (season+yyyy in ndays):
+                        ndays[season+yyyy] += 1
+                    else:
+                        ndays[season+yyyy] = 1
+                    if ((season,mod,stn,yyyy) in out_sum):
+                        out_sum[season,mod,stn,yyyy] = out_sum[\
+                            season,mod,stn,yyyy] + dat_c
+                    else:
+                        out_sum[season,mod,stn,yyyy] = dat_c
+
+                    #--- Get maximum.
+                    if ((season,mod,stn,yyyy) in out_max):
+                        if (dat_c > out_max[season,mod,stn,yyyy]):
+                            out_max[season,mod,stn,yyyy] = dat_c
+                    else:
+                        out_max[season,mod,stn,yyyy] = dat_c
+
+                    #--- Get minimum.
+                    if ((season,mod,stn,yyyy) in out_min):
+                        if (dat_c < out_min[season,mod,stn,yyyy]):
+                            out_min[season,mod,stn,yyyy] = dat_c
+                    else:
+                        out_min[season,mod,stn,yyyy] = dat_c
+
+                #--- Winter, December only.  Put December winter data into
+                #--- next year's winter-- naming winters by their Jan/Feb
+                #--- year rather than their Dec year.
+                if (mm == '12'):
                     season = 'winter'
-                (ndays, out_sum, out_max, out_min) = \
-                        get_season_summaxmin(dat_c, mod, stn, season, yyyy, mm,\
-                                             ndays, out_sum, out_max, out_min)
+                    yyyyw = str(int(yyyy) + 1)
+                    #--- Count number of days for this year's winter.
+                    if (season+yyyyw in ndays):
+                        ndays[season+yyyyw] += 1
+                    else:
+                        ndays[season+yyyyw] = 1
+                    if ((season,mod,stn,yyyyw) in out_sum):
+                        out_sum[season,mod,stn,yyyyw] = out_sum[\
+                            season,mod,stn,yyyyw] + dat_c
+                    else:
+                        out_sum[season,mod,stn,yyyyw] = dat_c
+
+                    #--- Get maximum.
+                    if ((season,mod,stn,yyyyw) in out_max):
+                        if (dat_c > out_max[season,mod,stn,yyyyw]):
+                            out_max[season,mod,stn,yyyyw] = dat_c
+                    else:
+                        out_max[season,mod,stn,yyyyw] = dat_c
+
+                    #--- Get minimum.
+                    if ((season,mod,stn,yyyyw) in out_min):
+                        if (dat_c < out_min[season,mod,stn,yyyyw]):
+                            out_min[season,mod,stn,yyyyw] = dat_c
+                    else:
+                        out_min[season,mod,stn,yyyyw] = dat_c
+                        
+                #--- Winter, Jan & Feb.
+                if (mm == '01' or mm == '02'):
+                    season = 'winter'
+                    #--- Count number of days for this year's winter.
+                    if (season+yyyy in ndays):
+                        ndays[season+yyyy] += 1
+                    else:
+                        ndays[season+yyyy] = 1
+                    if ((season,mod,stn,yyyy) in out_sum):
+                        out_sum[season,mod,stn,yyyy] = out_sum[\
+                            season,mod,stn,yyyy] + dat_c
+                    else:
+                        out_sum[season,mod,stn,yyyy] = dat_c
+
+                    #--- Get maximum.
+                    if ((season,mod,stn,yyyy) in out_max):
+                        if (dat_c > out_max[season,mod,stn,yyyy]):
+                            out_max[season,mod,stn,yyyy] = dat_c
+                    else:
+                        out_max[season,mod,stn,yyyy] = dat_c
+
+                    #--- Get minimum.
+                    if ((season,mod,stn,yyyy) in out_min):
+                        if (dat_c < out_min[season,mod,stn,yyyy]):
+                            out_min[season,mod,stn,yyyy] = dat_c
+                    else:
+                        out_min[season,mod,stn,yyyy] = dat_c
                         
             #--- Get list of unique, sorted years found above.
             years = list(sorted(set(years_mod_stn)))
+
+            if mod == 'access1.0' and stn == 'KSEA':
+                for yyyy in years:
+                    if ((season+yyyy) in ndays):
+                        print season,yyyy, ndays[season+yyyy], \
+                              out_min[season,mod,stn,yyyy]
+                    else:
+                        print season,yyyy, 'missing'
+            sys.exit()
 
             #--- Check number of data points per unique years and nan out
             #--- ones that do not have enough (< min_season_days).
@@ -753,267 +921,6 @@ def get_seasonal_stats(data_all, dts_all, models, stns, var, stat):
     else:
         return out_sum, years
 
-##---------------------------------------------------------------------------
-## Get seasonal stats (totals or averages currently).
-##---------------------------------------------------------------------------
-#def get_seasonal_stats(data_all, dts_all, models, stns, var, stat):
-#
-#    out_sum = {}
-#    out_avg = {}
-#    out_max = {}
-#    out_min = {}
-#        
-#    years_all = []
-#    stn_pr = 'KSEA'
-#    
-#    for m in range(len(models)):
-#        mod = models[m]
-#        data_all_c = data_all[mod]
-#        for s in range(len(stns)):
-#            stn = stns[s]
-#            ndays = {}
-#            years_mod_stn = []
-#            for d in range(len(dts_all)):
-#                yyyy = dts_all[d][0:4]
-#                mm = dts_all[d][4:6]
-#                years_mod_stn.append(yyyy)
-#
-#                #--- Very first date of all model runs will have unusable
-#                #--- (all 0's) in the fields.  So don't try and use it.
-#                if dts_all[d] == '1970010100':
-#                    continue
-#
-#                if ((var,stn,dts_all[d]) in data_all_c):
-#                    dat_c = data_all_c[var,stn,dts_all[d]]
-#                else:
-#                    ndays[season+yyyy] = np.nan
-#                    out_sum[season,mod,stn,yyyy] = np.nan
-#                    out_max[season,mod,stn,yyyy] = np.nan
-#                    out_min[season,mod,stn,yyyy] = np.nan
-#                    continue
-#
-#                #--- Annual.
-#                season = 'annual'
-#                #--- Count number of days for this year.
-#                if (season+yyyy in ndays):
-#                    ndays[season+yyyy] += 1
-#                else:
-#                    ndays[season+yyyy] = 1
-#
-#                if ((season,mod,stn,yyyy) in out_sum):
-#                    out_sum[season,mod,stn,yyyy] = out_sum[\
-#                        season,mod,stn,yyyy] + dat_c
-#                else:
-#                    out_sum[season,mod,stn,yyyy] = dat_c
-#
-#                #--- Get maximum.
-#                if ((season,mod,stn,yyyy) in out_max):
-#                    if (dat_c > out_max[season,mod,stn,yyyy]):
-#                        out_max[season,mod,stn,yyyy] = dat_c
-#                else:
-#                    out_max[season,mod,stn,yyyy] = dat_c
-#
-#                #--- Get minimum.
-#                if ((season,mod,stn,yyyy) in out_min):
-#                    if (dat_c < out_min[season,mod,stn,yyyy]):
-#                        out_min[season,mod,stn,yyyy] = dat_c
-#                else:
-#                    out_min[season,mod,stn,yyyy] = dat_c
-#
-#                #--- Spring.
-#                if (mm == '03' or mm == '04' or mm == '05'):
-#                    season = 'spring'
-#                    #--- Count number of days for this year's spring.
-#                    if (season+yyyy in ndays):
-#                        ndays[season+yyyy] += 1
-#                    else:
-#                        ndays[season+yyyy] = 1
-#
-#                    if ((season,mod,stn,yyyy) in out_sum):
-#                        out_sum[season,mod,stn,yyyy] = out_sum[\
-#                            season,mod,stn,yyyy] + dat_c
-#                    else:
-#                        out_sum[season,mod,stn,yyyy] = dat_c
-#
-#                    #--- Get maximum.
-#                    if ((season,mod,stn,yyyy) in out_max):
-#                        if (dat_c > out_max[season,mod,stn,yyyy]):
-#                            out_max[season,mod,stn,yyyy] = dat_c
-#
-##                            if (stn == stn_pr):
-##                                print '-----'
-##                                print stn, mod, yyyy, dts_all[d], dat_c
-##                                print 'out_max[season,mod,stn,yyyy] = ', \
-##                                      out_max[season,mod,stn,yyyy]
-#                    else:
-#                        out_max[season,mod,stn,yyyy] = dat_c
-#
-#                    #--- Get minimum.
-#                    if ((season,mod,stn,yyyy) in out_min):
-#                        if (dat_c < out_min[season,mod,stn,yyyy]):
-#                            out_min[season,mod,stn,yyyy] = dat_c
-#                    else:
-#                        out_min[season,mod,stn,yyyy] = dat_c
-#                        
-#                #--- Summer.
-#                if (mm == '06' or mm == '07' or mm == '08'):
-#                    season = 'summer'
-#                    #--- Count number of days for this year's summer.
-#                    if (season+yyyy in ndays):
-#                        ndays[season+yyyy] += 1
-#                    else:
-#                        ndays[season+yyyy] = 1
-#                    if ((season,mod,stn,yyyy) in out_sum):
-#                        out_sum[season,mod,stn,yyyy] = out_sum[\
-#                            season,mod,stn,yyyy] + dat_c
-#                    else:
-#                        out_sum[season,mod,stn,yyyy] = dat_c
-#
-#                    #--- Get maximum.
-#                    if ((season,mod,stn,yyyy) in out_max):
-#                        if (dat_c > out_max[season,mod,stn,yyyy]):
-#                            out_max[season,mod,stn,yyyy] = dat_c
-#                    else:
-#                        out_max[season,mod,stn,yyyy] = dat_c
-#
-#                    #--- Get minimum.
-#                    if ((season,mod,stn,yyyy) in out_min):
-#                        if (dat_c < out_min[season,mod,stn,yyyy]):
-#                            out_min[season,mod,stn,yyyy] = dat_c
-#                    else:
-#                        out_min[season,mod,stn,yyyy] = dat_c
-#
-#                #--- Fall.
-#                if (mm == '09' or mm == '10' or mm == '11'):
-#                    season = 'fall'
-#                    #--- Count number of days for this year's fall.
-#                    if (season+yyyy in ndays):
-#                        ndays[season+yyyy] += 1
-#                    else:
-#                        ndays[season+yyyy] = 1
-#                    if ((season,mod,stn,yyyy) in out_sum):
-#                        out_sum[season,mod,stn,yyyy] = out_sum[\
-#                            season,mod,stn,yyyy] + dat_c
-#                    else:
-#                        out_sum[season,mod,stn,yyyy] = dat_c
-#
-#                    #--- Get maximum.
-#                    if ((season,mod,stn,yyyy) in out_max):
-#                        if (dat_c > out_max[season,mod,stn,yyyy]):
-#                            out_max[season,mod,stn,yyyy] = dat_c
-#                    else:
-#                        out_max[season,mod,stn,yyyy] = dat_c
-#
-#                    #--- Get minimum.
-#                    if ((season,mod,stn,yyyy) in out_min):
-#                        if (dat_c < out_min[season,mod,stn,yyyy]):
-#                            out_min[season,mod,stn,yyyy] = dat_c
-#                    else:
-#                        out_min[season,mod,stn,yyyy] = dat_c
-#
-#                #--- Winter, December only.  Put December winter data into
-#                #--- next year's winter-- naming winters by their Jan/Feb
-#                #--- year rather than their Dec year.
-#                if (mm == '12'):
-#                    season = 'winter'
-#                    yyyyw = str(int(yyyy) + 1)
-#                    #--- Count number of days for this year's winter.
-#                    if (season+yyyyw in ndays):
-#                        ndays[season+yyyyw] += 1
-#                    else:
-#                        ndays[season+yyyyw] = 1
-#                    if ((season,mod,stn,yyyyw) in out_sum):
-#                        out_sum[season,mod,stn,yyyyw] = out_sum[\
-#                            season,mod,stn,yyyyw] + dat_c
-#                    else:
-#                        out_sum[season,mod,stn,yyyyw] = dat_c
-#
-#                    #--- Get maximum.
-#                    if ((season,mod,stn,yyyyw) in out_max):
-#                        if (dat_c > out_max[season,mod,stn,yyyyw]):
-#                            out_max[season,mod,stn,yyyyw] = dat_c
-#                    else:
-#                        out_max[season,mod,stn,yyyyw] = dat_c
-#
-#                    #--- Get minimum.
-#                    if ((season,mod,stn,yyyyw) in out_min):
-#                        if (dat_c < out_min[season,mod,stn,yyyyw]):
-#                            out_min[season,mod,stn,yyyyw] = dat_c
-#                    else:
-#                        out_min[season,mod,stn,yyyyw] = dat_c
-#                        
-#                #--- Winter, Jan & Feb.
-#                if (mm == '01' or mm == '02'):
-#                    season = 'winter'
-#                    #--- Count number of days for this year's winter.
-#                    if (season+yyyy in ndays):
-#                        ndays[season+yyyy] += 1
-#                    else:
-#                        ndays[season+yyyy] = 1
-#                    if ((season,mod,stn,yyyy) in out_sum):
-#                        out_sum[season,mod,stn,yyyy] = out_sum[\
-#                            season,mod,stn,yyyy] + dat_c
-#                    else:
-#                        out_sum[season,mod,stn,yyyy] = dat_c
-#
-#                    #--- Get maximum.
-#                    if ((season,mod,stn,yyyy) in out_max):
-#                        if (dat_c > out_max[season,mod,stn,yyyy]):
-#                            out_max[season,mod,stn,yyyy] = dat_c
-#                    else:
-#                        out_max[season,mod,stn,yyyy] = dat_c
-#
-#                    #--- Get minimum.
-#                    if ((season,mod,stn,yyyy) in out_min):
-#                        if (dat_c < out_min[season,mod,stn,yyyy]):
-#                            out_min[season,mod,stn,yyyy] = dat_c
-#                    else:
-#                        out_min[season,mod,stn,yyyy] = dat_c
-#                        
-#            #--- Get list of unique, sorted years found above.
-#            years = list(sorted(set(years_mod_stn)))
-#
-#            #--- Check number of data points per unique years and nan out
-#            #--- ones that do not have enough (< min_season_days).
-#            for y in range(len(years)):
-#                yyyy = years[y]
-#                for s in range(len(seasons)):
-#                    season = seasons[s]
-#                    if ((season+yyyy) in ndays):
-#                        if (ndays[season+yyyy] < min_season_days):
-#                            out_sum[season,mod,stn,yyyy] = np.nan
-#                            out_max[season,mod,stn,yyyy] = np.nan
-#                            out_min[season,mod,stn,yyyy] = np.nan
-#                    else:
-#                        ndays[season+yyyy] = np.nan
-#                        out_sum[season,mod,stn,yyyy] = np.nan
-#                        out_max[season,mod,stn,yyyy] = np.nan
-#                        out_min[season,mod,stn,yyyy] = np.nan
-#
-#            #--- if stat requested was 'avg', do averaging.
-#            if (stat == 'avg' or stat == 'max' or stat == 'min'):
-#                for y in range(len(years)):
-#                    yyyy = years[y]
-#                    for s in range(len(seasons)):
-#                        season = seasons[s]
-#                        out_avg[season,mod,stn,yyyy] = out_sum[\
-#                            season,mod,stn,yyyy] / ndays[season+yyyy]
-#                
-#            #--- Keep around all years found for this model and station.
-#            years_all.append(years_mod_stn)
-#
-#    #--- Final, unique, sorted list of years found.
-#    years = list(sorted(set(years_all[0])))            
-#
-#    if (stat == 'avg'):
-#        return out_avg, years
-#    elif (stat == 'max'):
-#        return out_max, years
-#    elif (stat == 'min'):
-#        return out_min, years
-#    else:
-#        return out_sum, years
-
 #---------------------------------------------------------------------------
 # Make time series of sent-in data for a set of stations for one model.
 #---------------------------------------------------------------------------
@@ -1039,8 +946,7 @@ def ts_stns(statplot, years, stns, mod, titlein, plotfname, var, stat, \
                     if (s == 0):
                         xlabs.append(season.title() + ' ' + years[y])
         plt.plot(ptot, alpha = 0.3, label = stn, color = cols[s])
-#        plt.plot(smooth(ptot, smooth_fact), label = stn, color = cols[s])
-        plt.plot(ptot, label = stn, color = cols[s])        
+        plt.plot(smooth(ptot, smooth_fact), label = stn, color = cols[s])
 
     #--- y-axis labeling.
     plt.ylim(ylims[var+stat])
@@ -1083,6 +989,8 @@ def ts_mods(statplot, years, obsplot, years_obs, stn, models, titlein, \
     for m in range(len(models)):
         ptot = []
         mod = models[m]
+
+        print '----', mod, stat
         
         for y in range(len(years)):
             yyyy = years[y]
@@ -1095,9 +1003,9 @@ def ts_mods(statplot, years, obsplot, years_obs, stn, models, titlein, \
                     elif (var == 'T2MAX' or var == 'T2MIN' or var == 'T2MEAN'):
                         ptot_c = statplot[key] - 273.15
 
-#                        if ptot_c < -50 or ptot_c > 50:
-#                            print yyyy, season, var, key
-#                            sys.exit()
+                        if ptot_c < -50 or ptot_c > 50:
+                            print yyyy, season, var, key
+                            sys.exit()
                         
                     elif (var.find('SPD') >= 0):
                         ptot_c = statplot[key]
@@ -1105,13 +1013,21 @@ def ts_mods(statplot, years, obsplot, years_obs, stn, models, titlein, \
                         xlabs.append(years[y])
 
                     ptot.append(ptot_c)
+                    
             mod_all[m,y] = ptot_c
+        print mod_all[m,:]
             
-#        plt.plot(smooth(ptot, smooth_fact), label = mod.upper(), \
-#                 color = cols[m], linewidth=lw_sm, alpha = 0.23)
-        plt.plot(ptot, label = mod.upper(), \
-                 color = cols[m], linewidth=lw_sm, alpha = 0.23)                 
+        plt.plot(smooth(ptot, smooth_fact), label = mod.upper(), \
+                 color = cols[m], linewidth=lw_sm, alpha = 0.23)
+        print smooth(ptot, smooth_fact)
 
+    for y in range(len(years)):
+        print '----'
+        print 'year = ', years[y]
+        print mod_all[:,y]
+        print np.nanmean(mod_all[:,y])
+
+    print 'np.nanmean(mod_all, axis=0) = ', np.nanmean(mod_all, axis=0)
     #--- Plot ensemble mean.
     plt.plot(np.nanmean(mod_all, axis=0), label = 'Ensemble Mean', \
              color = 'darkgreen', linewidth=2.2)
@@ -1126,11 +1042,11 @@ def ts_mods(statplot, years, obsplot, years_obs, stn, models, titlein, \
             key = (season,stn,yyyy)
             if (season in seasonsplot):
                 otot.append(obsplot[key])
-    plt.plot(otot, label='Observed', color='black', \
+    plt.plot(otot, alpha=0.5, label='Observed', color='black', \
              linestyle='None', marker='o', markersize=3)
-#    lab_c = 'Obs, ' + str(smooth_fact) + '-pt smoothing'
-#    plt.plot(smooth(otot,smooth_fact), label=lab_c, color='black', \
-#             linewidth=lw_sm)
+    lab_c = 'Obs, ' + str(smooth_fact) + '-pt smoothing'
+    plt.plot(smooth(otot,smooth_fact), label=lab_c, color='black', \
+             linewidth=lw_sm)
 
     #--- y-axis labeling.
     plt.ylim(ylims[var+stat])
@@ -1155,6 +1071,8 @@ def ts_mods(statplot, years, obsplot, years_obs, stn, models, titlein, \
     plt.savefig(plotfname)
     plt.close()
     
+    sys.exit()
+
     return 1
 
 #---------------------------------------------------------------------------
@@ -1498,51 +1416,3 @@ def smooth(a,WSZ):
     start = np.cumsum(a[:WSZ-1])[::2]/r
     stop = (np.cumsum(a[:-WSZ:-1])[::2]/r)[::-1]
     return np.concatenate((  start , out0, stop  ))
-
-#----------------------------------------------------------------------------
-# Add data to sums, max's and min's arrays.
-#----------------------------------------------------------------------------
-def get_season_summaxmin(dat_c, mod, stn, season, yyyyin, month, ndays, \
-                         out_sum, out_max, out_min):
-
-    #--- Look out for cases where data is NaN (e.g. the 31st of June) and
-    #--- do nothing (return) in those cases.
-    if np.isnan(dat_c):
-        return ndays, out_sum, out_max, out_min
-        
-    #--- Put December winter data into next year's winter-- naming
-    #--- winters by their Jan/Feb year rather than their Dec year.
-    if month == '12':
-        yyyy = str(int(yyyyin) + 1)
-    else:
-        yyyy = yyyyin
-        
-    #--- Count number of days for this season and year.
-    if (season+yyyy) in ndays:
-        ndays[season+yyyy] += 1
-    else:
-        ndays[season+yyyy] = 1
-
-    key = (season,mod,stn,yyyy)
-
-    #--- Get sum of sent in data.
-    if key in out_sum:
-        out_sum[key] = out_sum[key] + dat_c
-    else:
-        out_sum[key] = dat_c
-
-    #--- Get maximum.
-    if key in out_max:
-        if dat_c > out_max[key]:
-            out_max[key] = dat_c
-    else:
-        out_max[key] = dat_c
-            
-    #--- Get minimum.
-    if key in out_min:
-        if dat_c < out_min[key]:
-            out_min[key] = dat_c
-    else:
-        out_min[key] = dat_c
-
-    return ndays, out_sum, out_max, out_min
