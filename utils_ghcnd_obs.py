@@ -118,6 +118,7 @@ station_name_dict = {
     'KRBL': 'Red Bluff, CA',
     'KMYV': 'Marysville Yuba County, CA',
     'KCIC': 'Chico, CA'
+    'SNO30': 'Snoqualmie Pass, WA'
     }
 
 

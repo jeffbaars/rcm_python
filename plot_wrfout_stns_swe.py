@@ -59,13 +59,9 @@ with open(station_file) as csv_file:
         lonpts.append(float(row[2]))
         elevs.append(float(row[3]))
 
-##---------------------------------------------------------------------------
-## Make run directory, load geo_em file.
-##---------------------------------------------------------------------------
-#rundir = run_dirs + '/plot_wrfout_grid_avg_snowrad.' + str(os.getpid())
-#print 'making ', rundir
-#os.makedirs(rundir)
-
+#---------------------------------------------------------------------------
+# Load geo_em file.
+#---------------------------------------------------------------------------
 print 'Loading ', geo_em
 (lat, lon, hgt) = load_geo_em(geo_em)
 
@@ -132,7 +128,25 @@ else:
 #---------------------------------------------------------------------------
 # 
 #---------------------------------------------------------------------------
+(nm,ns,nf) = swe_all.shape
+for s in range(len(stns)):
+    plotfname = get_plotfname(plot_dir,stn,sdt,edt,season,var,stat)
+    titlein = get_title(season,stn,var,stat,yy_mod[var,stat])
+    iret = ts_swe(mod[var,stat],yy_mod[var,stat], \
+                   obs[varo,stat],yy_obs[varo,stat], stn, \
+                   models, titlein, plotfname, var, stat, \
+                   mod_cols, [season])
 
+    for m in range(len(models)):
+        model = models[m]
+
+        swe_plot = []
+        for f in range(nf):
+            swe_plot.append(swe_all[m,s,f])
+
+        print swe_plot
+        sys.exit()
+        
 
 sys.exit()
 

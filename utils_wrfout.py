@@ -1158,6 +1158,96 @@ def ts_mods(statplot, years, obsplot, years_obs, stn, models, titlein, \
     return 1
 
 #---------------------------------------------------------------------------
+# Make time series of sent-in data for a set of models for one station.
+#---------------------------------------------------------------------------
+def ts_swe(statplot, years, obsplot, years_obs, stn, models, titlein, \
+           plotfname, var, stat, cols, seasonsplot):
+
+    fig, ax = plt.subplots( figsize=(10,6) )
+
+    lw_sm = 1.8
+
+    #--- Plot models.
+    xlabs = []
+    mod_all = np.ones((len(models),len(years))) * np.nan
+    for m in range(len(models)):
+        ptot = []
+        mod = models[m]
+        
+        for y in range(len(years)):
+            yyyy = years[y]
+            for ss in range(len(seasons)):
+                season = seasons[ss]
+                key = (season,mod,stn,yyyy)
+                if (season in seasonsplot):
+                    if (var == 'PREC'):
+                        ptot_c = statplot[key] * mm2in
+                    elif (var == 'T2MAX' or var == 'T2MIN' or var == 'T2MEAN'):
+                        ptot_c = statplot[key] - 273.15
+
+#                        if ptot_c < -50 or ptot_c > 50:
+#                            print yyyy, season, var, key
+#                            sys.exit()
+                        
+                    elif (var.find('SPD') >= 0):
+                        ptot_c = statplot[key]
+                    if (m == 0):
+                        xlabs.append(years[y])
+
+                    ptot.append(ptot_c)
+            mod_all[m,y] = ptot_c
+            
+#        plt.plot(smooth(ptot, smooth_fact), label = mod.upper(), \
+#                 color = cols[m], linewidth=lw_sm, alpha = 0.23)
+        plt.plot(ptot, label = mod.upper(), \
+                 color = cols[m], linewidth=lw_sm, alpha = 0.23)                 
+
+    #--- Plot ensemble mean.
+    plt.plot(np.nanmean(mod_all, axis=0), label = 'Ensemble Mean', \
+             color = 'darkgreen', linewidth=2.2)
+    
+    #--- Plot observations.
+    otot = []
+    for y in range(len(years_obs)):
+#        yyyy = years[y]
+        yyyy = years_obs[y]
+        for ss in range(len(seasons)):
+            season = seasons[ss]
+            key = (season,stn,yyyy)
+            if (season in seasonsplot):
+                otot.append(obsplot[key])
+    plt.plot(otot, label='Observed', color='black', \
+             linestyle='None', marker='o', markersize=3)
+#    lab_c = 'Obs, ' + str(smooth_fact) + '-pt smoothing'
+#    plt.plot(smooth(otot,smooth_fact), label=lab_c, color='black', \
+#             linewidth=lw_sm)
+
+    #--- y-axis labeling.
+    plt.ylim(ylims[var+stat])
+    plt.ylabel('Seasonal ' + labels[var+stat], fontsize=fs+1)
+    plt.tick_params(axis='y', which='major', labelsize=fs+1)    
+
+    #--- x-axis labels.
+    xticks_c = range(0,len(xlabs), 4)
+    xlabs_c = [ xlabs[i] for i in xticks_c ]    
+    plt.xticks(xticks_c)
+    plt.tick_params(axis='x', which='major', labelsize=fs-1)
+    ax.set_xticklabels(xlabs_c, rotation=90)        
+    plt.xlabel('Year', fontsize=fs+1)
+
+    plt.title(titlein, fontsize=titlefs, fontweight='bold')
+
+    plt.tight_layout()
+    plt.grid()
+    plt.legend(fontsize = fs-1, loc = 'best')
+
+    print 'xli ', plotfname, ' &'
+    plt.savefig(plotfname)
+    plt.close()
+    
+    return 1
+
+#---------------------------------------------------------------------------
 # Loop over each models, grabbing data from extract wrfout files.
 #---------------------------------------------------------------------------
 def load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
