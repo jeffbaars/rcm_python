@@ -7,6 +7,7 @@ from netCDF4 import Dataset as NetCDFFile
 from utils_wrfout import *
 from utils_date import *
 from utils_cmap import *
+from utils_snotel_obs import *
 import pickle
 from collections import defaultdict
 from make_cmap import *
@@ -51,25 +52,35 @@ yyyy_e = edt[0:4]
 # Load stations file.
 #---------------------------------------------------------------------------
 print 'Loading ', station_file
-stns      = []
-latpts    = []
-lonpts    = []
-elevs     = []
-stn_names = []
-with open(station_file) as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=',')
-    line_count = 0
-    for row in csv_reader:
-        stns.append(row[0])
-        latpts.append(float(row[1]))
-        lonpts.append(float(row[2]))
-        elevs.append(float(row[3]))
+(stns, latpts, lonpts, elevs, stn_names) = read_swe_stations_file(station_file)
 
+#---------------------------------------------------------------------------
+# Load SNOTEL data for each stns, if data exists.
+#---------------------------------------------------------------------------
+swe_yyyy = {}
+swe_obs  = {}
+for s in range(len(stns)):
+    stn = stns[s]
+    swe_file = snotel_dir + '/' + stns[s] + '.csv'
+    if os.path.isfile(swe_file):
+        print 'Loading ', swe_file
+        (swe_yyyy[stn], swe_obs[stn]) = read_snotel(swe_file)
+    
 #---------------------------------------------------------------------------
 # Load geo_em file.
 #---------------------------------------------------------------------------
 print 'Loading ', geo_em
 (lat, lon, hgt) = load_geo_em(geo_em)
+
+#---------------------------------------------------------------------------
+# Get model station elevations.
+#---------------------------------------------------------------------------
+stn_mod_elevs = []
+print 'stn, actual elev, mod elev'
+for s in range(len(stns)):
+    elev_c = bilinear_interpolate(lat, lon, hgt, latpts[s], lonpts[s], 0)
+    stn_mod_elevs.append(elev_c)
+    print stns[s], elevs[s], stn_mod_elevs[s]
 
 #---------------------------------------------------------------------------
 # For each model, read in Snow Water Equivalent data for all stns.
@@ -150,17 +161,14 @@ for d in range(len(dts_all)):
 for s in range(len(stns)):
     stn = stns[s]
     plotfname = plot_dir + '/' + stn + '_' + sdt + '_' + edt + '_swe.png'
-    titlein = station_name_dict[stn] + ' (' + stn.upper() + '), ' + \
+    titlein = stn_names[s] + ' (' + stn.upper() + '), ' + \
+              '(model elev: ' + str(int(stn_mod_elevs[s])) + '-m, ' + \
+              'actual elev: ' + str(int(elevs[s])) + '-m), ' + \
               labels[varswe+stat] + ', ' + \
               str(years[0]) + ' - ' + str(years[len(years)-1])
-
-    #--- need to get obs and read them...
-    obs = []
-    obs_years = []
     
-    iret = ts_swe(swe_all, years, obs, obs_years, stn, s, models, titlein, \
-                  plotfname, varswe, stat, mod_cols)
+    iret = ts_swe(swe_all, years, swe_obs[stn], swe_yyyy[stn], stn, s, \
+                  models, titlein, plotfname, varswe, stat, mod_cols)
         
-
 sys.exit()
 

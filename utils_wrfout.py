@@ -50,7 +50,7 @@ ylims = {
     'T2MEANavg': [-10.0, 50.0],
     'SPDUV10MEANavg': [0, 5.0],
     'SPDUV10MAXmax': [0, 20.0],
-    'SNOWtot': [0, 1000.0]
+    'SNOWtot': [0, 2000.0]
     }
 labels = {
     'PRECtot':  'Total Precipitation (in.)',
@@ -1162,7 +1162,7 @@ def ts_mods(statplot, years, obsplot, years_obs, stn, models, titlein, \
 #---------------------------------------------------------------------------
 # Make time series of sent-in data for a set of models for one station.
 #---------------------------------------------------------------------------
-def ts_swe(swe_all, years, obsplot, years_obs, stn, s, models, titlein, \
+def ts_swe(swe_all, years, swe_obs, years_obs, stn, s, models, titlein, \
            plotfname, var, stat, cols):
 
     (nm,ns,nf) = swe_all.shape
@@ -1185,26 +1185,22 @@ def ts_swe(swe_all, years, obsplot, years_obs, stn, s, models, titlein, \
     #--- Plot ensemble mean.
     plt.plot(np.nanmean(swe_all[:,s,:], axis=0), label = 'Ensemble Mean', \
              color = 'darkgreen', linewidth=2.2)
-    
-#    #--- Plot observations.
-#    otot = []
-#    for y in range(len(years_obs)):
-##        yyyy = years[y]
-#        yyyy = years_obs[y]
-#        for ss in range(len(seasons)):
-#            season = seasons[ss]
-#            key = (season,stn,yyyy)
-#            if (season in seasonsplot):
-#                otot.append(obsplot[key])
-#    plt.plot(otot, label='Observed', color='black', \
-#             linestyle='None', marker='o', markersize=3)
-##    lab_c = 'Obs, ' + str(smooth_fact) + '-pt smoothing'
-##    plt.plot(smooth(otot,smooth_fact), label=lab_c, color='black', \
-##             linewidth=lw_sm)
+
+    #--- Plot observations.
+    obs_plot      = []
+    obs_yyyy_plot = []    
+    for y in range(len(years)):
+        if years[y] in years_obs:
+            i = years_obs.index(years[y])
+            obs_plot.append(swe_obs[i])
+        else:
+            obs_plot.append(np.nan)            
+    plt.plot(obs_plot, label='Observed', color='black', \
+             linestyle='None', marker='o', markersize=3)
 
     #--- y-axis labeling.
     plt.ylim(ylims[var+stat])
-    plt.ylabel('Seasonal ' + labels[var+stat], fontsize=fs+1)
+    plt.ylabel(labels[var+stat], fontsize=fs+1)
     plt.tick_params(axis='y', which='major', labelsize=fs+1)    
 
     #--- x-axis labels.
