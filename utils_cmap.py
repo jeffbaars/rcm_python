@@ -70,6 +70,31 @@ for i in range(len(levs_swe_std)):
     levs_norm_c.append(norm_c)
 cmap_swe_std = make_cmap(cmap_swe_std, bit = True, position = levs_norm_c)
 
+levs_swe_diff = [ -1200, -800, -600, -400, -200, -100, -50, 0, \
+                  50, 100, 200, 400, 800 ]
+cmap_swe_diff = [ ( 63,  37,  11), \
+                  ( 84,  48,   5), \
+                  (140,  81,  10), \
+                  (191, 129,  45), \
+                  (223, 194, 125), \
+                  (246, 232, 195), \
+                  (245, 245, 245), \
+                  (199, 234, 229), \
+                  (128, 205, 193), \
+                  ( 53, 151,  43), \
+                  (  1, 102,  95), \
+                  (  0,  60,  48), \
+                  (  0, 100,  0)]
+
+levs_norm_c = []
+for i in range(len(levs_swe_diff)):
+    x = float(levs_swe_diff[i])
+    norm_c = (x - min(levs_swe_diff)) / (max(levs_swe_diff) - \
+                                         min(levs_swe_diff))
+    levs_norm_c.append(norm_c)
+cmap_swe_diff = make_cmap(cmap_swe_diff, bit = True, position = levs_norm_c)
+
+
 levs_swdown = [ 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, \
                 600, 650, 700, 750, 800]
 cmap_swdown = [(255,255,255), \

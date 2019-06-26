@@ -16,14 +16,13 @@ py_dir     = rcm_dir + '/python'
 plot_dir   = rcm_dir + '/plots/new'
 pickle_dir = rcm_dir + '/pickle'
 data_dir   = rcm_dir + '/data'
-obs_dir    = rcm_dir + '/obs'
-ghcnd_dir  = obs_dir + '/ghcnd_all'
+ghcnd_dir  = data_dir + '/ghcnd/ghcnd_all'
 data_dirs  = ['/home/disk/r2d2/steed/cmip5/rcp8.5', \
               '/home/disk/vader/steed/cmip5/rcp8.5', \
               '/home/disk/jabba/steed/cmip5/rcp8.5']
 
 geo_em = data_dir + '/geo_em.d02.nc'
-station_file = obs_dir + '/station_file.txt'
+station_file = data_dir + '/station_file.txt'
 
 #---------------------------------------------------------------------------
 # Settings.

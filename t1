@@ -1,0 +1,3898 @@
+Loading  /home/disk/spock/jbaars/rcm/obs/station_file_swe.txt
+Loading  /home/disk/spock/jbaars/rcm/data/geo_em.d02.nc
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1970040100.nc
+KSMP 413.606160316
+SNO30 600.61649459
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1971040100.nc
+KSMP 813.281855475
+SNO30 1132.51413556
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1972040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1973040100.nc
+KSMP 182.443048622
+SNO30 489.398450011
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1974040100.nc
+KSMP 649.669835703
+SNO30 886.970949333
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1975040100.nc
+KSMP 769.254151869
+SNO30 1058.28706808
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1976040100.nc
+KSMP 8.1622366213
+SNO30 328.985108105
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1977040100.nc
+KSMP 0.0
+SNO30 153.703906098
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1978040100.nc
+KSMP 61.5683086062
+SNO30 202.063148483
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1979040100.nc
+KSMP 419.362875113
+SNO30 655.614050776
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1980040100.nc
+KSMP 135.328707868
+SNO30 461.037830504
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1981040100.nc
+KSMP 465.132301012
+SNO30 778.400318189
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1982040100.nc
+KSMP 0.0
+SNO30 240.507701007
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1983040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1984040100.nc
+KSMP 483.575104794
+SNO30 753.294706624
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1985040100.nc
+KSMP 558.41109804
+SNO30 817.403434474
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1986040100.nc
+KSMP 699.893093074
+SNO30 979.848521553
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1987040100.nc
+KSMP 0.0
+SNO30 129.501821683
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1988040100.nc
+KSMP 168.803324102
+SNO30 405.986293297
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1989040100.nc
+KSMP 779.018571287
+SNO30 1055.46865708
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1990040100.nc
+KSMP 365.697466405
+SNO30 614.177846456
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1991040100.nc
+KSMP 611.714128076
+SNO30 937.233496475
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1992040100.nc
+KSMP 741.079177945
+SNO30 1186.90883962
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1993040100.nc
+KSMP 0.0
+SNO30 142.468114782
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1994040100.nc
+KSMP 635.858621382
+SNO30 927.039188065
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1995040100.nc
+KSMP 462.677606603
+SNO30 665.704661504
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1996040100.nc
+KSMP 177.837643559
+SNO30 401.060683838
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1997040100.nc
+KSMP 302.593950928
+SNO30 592.899058407
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1998040100.nc
+KSMP 563.577923537
+SNO30 734.554958105
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.1999040100.nc
+KSMP 825.005259172
+SNO30 1074.57579873
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2000040100.nc
+KSMP 246.160308118
+SNO30 503.621153118
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2001040100.nc
+KSMP 492.409435729
+SNO30 716.874720955
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2002040100.nc
+KSMP 0.0
+SNO30 120.105073428
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2003040100.nc
+KSMP 77.7887691626
+SNO30 394.234918389
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2004040100.nc
+KSMP 221.482486898
+SNO30 439.7156435
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2005040100.nc
+KSMP 358.301789947
+SNO30 572.865197917
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2006040100.nc
+KSMP 357.149040348
+SNO30 546.131251268
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2007040100.nc
+KSMP 182.015419212
+SNO30 452.955083331
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2008040100.nc
+KSMP 424.070877461
+SNO30 644.160284437
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2009040100.nc
+KSMP 316.483836005
+SNO30 569.802088503
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2010040100.nc
+KSMP 471.392445122
+SNO30 705.172245972
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2011040100.nc
+KSMP 304.6225917
+SNO30 560.957757219
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2012040100.nc
+KSMP 432.580260523
+SNO30 680.54806013
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2013040100.nc
+KSMP 0.0
+SNO30 272.513252029
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2014040100.nc
+KSMP 144.697039672
+SNO30 398.721028605
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2015040100.nc
+KSMP 204.339847369
+SNO30 404.417683937
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2016040100.nc
+KSMP 141.056359971
+SNO30 347.666502466
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2017040100.nc
+KSMP 477.790437783
+SNO30 799.038807965
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2018040100.nc
+KSMP 296.609137857
+SNO30 600.284232007
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2019040100.nc
+KSMP 0.0
+SNO30 172.146399272
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2020040100.nc
+KSMP 30.2202184791
+SNO30 205.067715857
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2021040100.nc
+KSMP 42.363910968
+SNO30 293.995183415
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2022040100.nc
+KSMP 258.894575293
+SNO30 431.11255593
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2023040100.nc
+KSMP 244.080304701
+SNO30 449.730517894
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2024040100.nc
+KSMP 129.387271443
+SNO30 351.265355304
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2025040100.nc
+KSMP 434.821997892
+SNO30 641.400532284
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2026040100.nc
+KSMP 5.35596631974
+SNO30 152.430962283
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2027040100.nc
+KSMP 22.2215490453
+SNO30 237.964347341
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2028040100.nc
+KSMP 0.0
+SNO30 162.343273006
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2029040100.nc
+KSMP 73.6534187394
+SNO30 309.845246306
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2030040100.nc
+KSMP 237.570678139
+SNO30 445.547702526
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2031040100.nc
+KSMP 295.772533283
+SNO30 558.308706233
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2032040100.nc
+KSMP 25.629378255
+SNO30 239.979923994
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2033040100.nc
+KSMP 58.9794164316
+SNO30 270.816525603
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2034040100.nc
+KSMP 146.269526244
+SNO30 349.316090003
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2035040100.nc
+KSMP 12.7396481257
+SNO30 118.485750839
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2036040100.nc
+KSMP 504.549202741
+SNO30 768.254137724
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2037040100.nc
+KSMP 103.312999669
+SNO30 433.778370548
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2038040100.nc
+KSMP 470.388791304
+SNO30 739.103135017
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2039040100.nc
+KSMP 253.729417006
+SNO30 537.940327085
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2040040100.nc
+KSMP 758.093367228
+SNO30 1021.94344718
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2041040100.nc
+KSMP 0.0
+SNO30 64.7620243509
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2042040100.nc
+KSMP 206.152186316
+SNO30 458.03743837
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2043040100.nc
+KSMP 279.526852638
+SNO30 568.556376258
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2044040100.nc
+KSMP 532.83528128
+SNO30 878.694123232
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2045040100.nc
+KSMP 175.337404599
+SNO30 413.756338865
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2046040100.nc
+KSMP 34.1400894123
+SNO30 224.946259662
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2047040100.nc
+KSMP 111.132673407
+SNO30 274.801345106
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2048040100.nc
+KSMP 0.0
+SNO30 165.328783308
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2049040100.nc
+KSMP 160.208267046
+SNO30 339.937304484
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2050040100.nc
+KSMP 0.0
+SNO30 218.039570099
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2051040100.nc
+KSMP 0.0
+SNO30 130.693098898
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2052040100.nc
+KSMP 157.366557438
+SNO30 300.597324264
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2053040100.nc
+KSMP 1.50687550802
+SNO30 98.3754234049
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2054040100.nc
+KSMP 0.0
+SNO30 132.160054823
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2055040100.nc
+KSMP 42.3063393105
+SNO30 265.419638941
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2056040100.nc
+KSMP 113.005512146
+SNO30 334.693153555
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2057040100.nc
+KSMP 0.0
+SNO30 8.47395868145
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2058040100.nc
+KSMP 82.7743083245
+SNO30 337.834067189
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2059040100.nc
+KSMP 652.845555991
+SNO30 968.826733594
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2060040100.nc
+KSMP 64.4453441155
+SNO30 336.995895027
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2061040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2062040100.nc
+KSMP 0.0
+SNO30 132.366406893
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2063040100.nc
+KSMP 381.143831995
+SNO30 620.887100038
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2064040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2065040100.nc
+KSMP 172.086585138
+SNO30 413.439242152
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2066040100.nc
+KSMP 0.0
+SNO30 198.054204539
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2067040100.nc
+KSMP 3.68988177426
+SNO30 185.918132591
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2068040100.nc
+KSMP 0.0
+SNO30 17.8165069629
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2069040100.nc
+KSMP 5.37233489405
+SNO30 120.178204826
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2070040100.nc
+KSMP 194.319588917
+SNO30 492.706499649
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2071040100.nc
+KSMP 49.8274039619
+SNO30 132.084090589
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2072040100.nc
+KSMP 0.0
+SNO30 170.143333847
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2073040100.nc
+KSMP 34.9664461932
+SNO30 316.563970197
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2074040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2075040100.nc
+KSMP 0.0
+SNO30 68.154338315
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2076040100.nc
+KSMP 42.7227096651
+SNO30 137.595008112
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2077040100.nc
+KSMP 0.0
+SNO30 173.812388164
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2078040100.nc
+KSMP 3.85728796189
+SNO30 151.92277567
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2079040100.nc
+KSMP 79.1084943263
+SNO30 203.868111862
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2080040100.nc
+KSMP 0.0
+SNO30 65.3041853706
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2081040100.nc
+KSMP 0.000423444309666
+SNO30 7.10589464581
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2082040100.nc
+KSMP 5.36803779266
+SNO30 124.871583499
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2083040100.nc
+KSMP 253.18107835
+SNO30 581.77832643
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2084040100.nc
+KSMP 0.0
+SNO30 2.22472186832
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2085040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2086040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2087040100.nc
+KSMP 0.0
+SNO30 66.1612025551
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2088040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2089040100.nc
+KSMP 0.0
+SNO30 0.0317189249326
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2090040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2091040100.nc
+KSMP 0.0
+SNO30 15.0557725442
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2092040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2093040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2094040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2095040100.nc
+KSMP 0.0
+SNO30 0.000560153649461
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2096040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2097040100.nc
+KSMP 0.0
+SNO30 60.5413449072
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2098040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/access1.0/swe/snowrad.2099040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1970040100.nc
+KSMP 234.160252463
+SNO30 428.691798507
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1971040100.nc
+KSMP 390.422971953
+SNO30 635.244408033
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1972040100.nc
+KSMP 574.708251069
+SNO30 790.843132788
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1973040100.nc
+KSMP 164.991366888
+SNO30 393.00978929
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1974040100.nc
+KSMP 582.83006542
+SNO30 897.094705484
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1975040100.nc
+KSMP 361.872187512
+SNO30 661.995069567
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1976040100.nc
+KSMP 751.918016229
+SNO30 1099.32291354
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1977040100.nc
+KSMP 1001.13059654
+SNO30 1271.06057948
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1978040100.nc
+KSMP 276.859421159
+SNO30 512.166391584
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1979040100.nc
+KSMP 562.635072335
+SNO30 816.688910762
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1980040100.nc
+KSMP 234.843490431
+SNO30 482.437134327
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1981040100.nc
+KSMP 686.672453069
+SNO30 959.627091912
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1982040100.nc
+KSMP 304.572772847
+SNO30 564.211980389
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1983040100.nc
+KSMP 24.253543811
+SNO30 277.88942102
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1984040100.nc
+KSMP 533.865309268
+SNO30 839.284585818
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1985040100.nc
+KSMP 516.260069932
+SNO30 750.588602094
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1986040100.nc
+KSMP 324.465791529
+SNO30 632.11088702
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1987040100.nc
+KSMP 84.5807460446
+SNO30 209.669476251
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1988040100.nc
+KSMP 418.393530064
+SNO30 704.357839282
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1989040100.nc
+KSMP 41.9265881139
+SNO30 265.109519487
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1990040100.nc
+KSMP 492.613600347
+SNO30 741.342414566
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1991040100.nc
+KSMP 277.729718092
+SNO30 532.036570585
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1992040100.nc
+KSMP 668.808529075
+SNO30 1058.25312299
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1993040100.nc
+KSMP 252.695773375
+SNO30 467.473091861
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1994040100.nc
+KSMP 848.606483722
+SNO30 1136.14653491
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1995040100.nc
+KSMP 471.13126495
+SNO30 802.434421828
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1996040100.nc
+KSMP 304.864907843
+SNO30 595.846675912
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1997040100.nc
+KSMP 660.476605475
+SNO30 881.15635703
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1998040100.nc
+KSMP 364.891256823
+SNO30 630.557180052
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.1999040100.nc
+KSMP 569.981222098
+SNO30 814.215905921
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2000040100.nc
+KSMP 0.0
+SNO30 241.249153797
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2001040100.nc
+KSMP 51.2055024203
+SNO30 315.895531988
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2002040100.nc
+KSMP 493.588878361
+SNO30 755.066987965
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2003040100.nc
+KSMP 375.123294698
+SNO30 576.320180505
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2004040100.nc
+KSMP 174.820069573
+SNO30 404.22199951
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2005040100.nc
+KSMP 386.289346353
+SNO30 679.277971118
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2006040100.nc
+KSMP 362.58237783
+SNO30 601.505812729
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2007040100.nc
+KSMP 648.694320572
+SNO30 956.042623966
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2008040100.nc
+KSMP 539.302473334
+SNO30 784.304406876
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2009040100.nc
+KSMP 451.433930445
+SNO30 786.602675959
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2010040100.nc
+KSMP 639.203974926
+SNO30 984.637168312
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2011040100.nc
+KSMP 129.488098512
+SNO30 315.286899333
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2012040100.nc
+KSMP 538.698232297
+SNO30 820.089273016
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2013040100.nc
+KSMP 251.768679761
+SNO30 435.493630915
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2014040100.nc
+KSMP 0.539879177261
+SNO30 173.773504794
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2015040100.nc
+KSMP 346.159524796
+SNO30 613.47583593
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2016040100.nc
+KSMP 0.0
+SNO30 190.755781387
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2017040100.nc
+KSMP 0.0
+SNO30 103.931930951
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2018040100.nc
+KSMP 568.5897408
+SNO30 845.651277895
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2019040100.nc
+KSMP 66.734816711
+SNO30 329.102976086
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2020040100.nc
+KSMP 591.989579122
+SNO30 812.27567942
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2021040100.nc
+KSMP 275.990723669
+SNO30 551.559951371
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2022040100.nc
+KSMP 421.561419115
+SNO30 616.217241049
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2023040100.nc
+KSMP 19.373506292
+SNO30 240.730283806
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2024040100.nc
+KSMP 0.0
+SNO30 214.081352664
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2025040100.nc
+KSMP 128.039554503
+SNO30 395.254217207
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2026040100.nc
+KSMP 0.0
+SNO30 97.2673236048
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2027040100.nc
+KSMP 126.014415956
+SNO30 372.418662347
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2028040100.nc
+KSMP 10.5791741506
+SNO30 137.651619598
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2029040100.nc
+KSMP 0.0
+SNO30 104.031766314
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2030040100.nc
+KSMP 206.43223553
+SNO30 420.984514278
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2031040100.nc
+KSMP 5.97448255525
+SNO30 248.60109469
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2032040100.nc
+KSMP 433.959497024
+SNO30 786.298719976
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2033040100.nc
+KSMP 416.104579104
+SNO30 654.45992044
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2034040100.nc
+KSMP 4.79655461634
+SNO30 210.653822665
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2035040100.nc
+KSMP 18.5228040948
+SNO30 226.600608399
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2036040100.nc
+KSMP 473.647580325
+SNO30 734.803407883
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2037040100.nc
+KSMP 160.099698378
+SNO30 318.344649872
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2038040100.nc
+KSMP 32.1618512465
+SNO30 176.160154366
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2039040100.nc
+KSMP 153.061102102
+SNO30 440.151259771
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2040040100.nc
+KSMP 367.003830309
+SNO30 569.29607519
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2041040100.nc
+KSMP 0.0
+SNO30 138.139446078
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2042040100.nc
+KSMP 13.0016616411
+SNO30 160.138954741
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2043040100.nc
+KSMP 0.0
+SNO30 128.614124296
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2044040100.nc
+KSMP 233.043286504
+SNO30 481.501503128
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2045040100.nc
+KSMP 417.634828039
+SNO30 665.562243432
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2046040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2047040100.nc
+KSMP 0.0
+SNO30 47.7714902374
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2048040100.nc
+KSMP 87.2408141906
+SNO30 240.425536516
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2049040100.nc
+KSMP 21.4162628553
+SNO30 126.610608285
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2050040100.nc
+KSMP 3.93908101377
+SNO30 95.6301195249
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2051040100.nc
+KSMP 0.0
+SNO30 106.164921652
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2052040100.nc
+KSMP 89.9447380504
+SNO30 163.077790965
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2053040100.nc
+KSMP 167.497425597
+SNO30 358.690940018
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2054040100.nc
+KSMP 0.0
+SNO30 19.9920595745
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2055040100.nc
+KSMP 0.0
+SNO30 173.510534339
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2056040100.nc
+KSMP 35.2612885217
+SNO30 326.892534651
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2057040100.nc
+KSMP 20.0502860675
+SNO30 68.9045176806
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2058040100.nc
+KSMP 4.75912840569
+SNO30 201.098602487
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2059040100.nc
+KSMP 0.0
+SNO30 160.571629291
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2060040100.nc
+KSMP 133.562179452
+SNO30 427.531797642
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2061040100.nc
+KSMP 44.8365079964
+SNO30 293.928306877
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2062040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2063040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2064040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2065040100.nc
+KSMP 4.26270295551
+SNO30 14.8848270665
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2066040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2067040100.nc
+KSMP 451.769688586
+SNO30 666.371684468
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2068040100.nc
+KSMP 32.3545500615
+SNO30 164.757401968
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2069040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2070040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2071040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2072040100.nc
+KSMP 0.0
+SNO30 176.995161596
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2073040100.nc
+KSMP 82.1089044028
+SNO30 186.978892292
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2074040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2075040100.nc
+KSMP 2.06755749343
+SNO30 14.1001901986
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2076040100.nc
+KSMP 0.0
+SNO30 8.23394910983
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2077040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2078040100.nc
+KSMP 0.0
+SNO30 18.9202826321
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2079040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2080040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2081040100.nc
+KSMP 13.3722910711
+SNO30 199.214677853
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2082040100.nc
+KSMP 0.0
+SNO30 5.80727715832
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2083040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2084040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2085040100.nc
+KSMP 0.0
+SNO30 11.2254160466
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2086040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2087040100.nc
+KSMP 0.000924538131385
+SNO30 99.1180168598
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2088040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2089040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2090040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2091040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2092040100.nc
+KSMP 0.0
+SNO30 8.28313270745
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2093040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2094040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2095040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2096040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2097040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2098040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/jabba/steed/cmip5/rcp8.5/access1.3/swe/snowrad.2099040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1970040100.nc
+KSMP 266.299747322
+SNO30 359.69193256
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1971040100.nc
+KSMP 175.625130337
+SNO30 400.499985296
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1972040100.nc
+KSMP 477.065564029
+SNO30 704.655161124
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1973040100.nc
+KSMP 204.157403421
+SNO30 491.292161988
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1974040100.nc
+KSMP 78.4515277617
+SNO30 341.230817929
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1975040100.nc
+KSMP 409.618411369
+SNO30 714.771632804
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1976040100.nc
+KSMP 745.332716647
+SNO30 973.978122992
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1977040100.nc
+KSMP 65.7572657357
+SNO30 367.390025643
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1978040100.nc
+KSMP 337.332545306
+SNO30 506.644180067
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1979040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1980040100.nc
+KSMP 944.861201019
+SNO30 1264.09532358
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1981040100.nc
+KSMP 567.794940981
+SNO30 944.078568101
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1982040100.nc
+KSMP 379.851791976
+SNO30 726.335516561
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1983040100.nc
+KSMP 667.722169217
+SNO30 953.498845975
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1984040100.nc
+KSMP 402.175748175
+SNO30 758.422038442
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1985040100.nc
+KSMP 580.925441902
+SNO30 905.62182334
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1986040100.nc
+KSMP 415.773218752
+SNO30 643.367562683
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1987040100.nc
+KSMP 317.262551492
+SNO30 619.591181175
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1988040100.nc
+KSMP 303.385970721
+SNO30 498.444762949
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1989040100.nc
+KSMP 553.14870125
+SNO30 802.550186427
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1990040100.nc
+KSMP 279.433877307
+SNO30 622.425216007
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1991040100.nc
+KSMP 480.167720078
+SNO30 786.971670679
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1992040100.nc
+KSMP 0.0
+SNO30 182.697125562
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1993040100.nc
+KSMP 119.879920783
+SNO30 453.782300092
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1994040100.nc
+KSMP 609.66377074
+SNO30 849.881822282
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1995040100.nc
+KSMP 24.9830055548
+SNO30 346.35933235
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1996040100.nc
+KSMP 35.1326538383
+SNO30 342.964954314
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1997040100.nc
+KSMP 792.031109492
+SNO30 1044.97159395
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1998040100.nc
+KSMP 596.715899939
+SNO30 988.29160081
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.1999040100.nc
+KSMP 335.158532032
+SNO30 515.408291742
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2000040100.nc
+KSMP 405.852121478
+SNO30 676.394500946
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2001040100.nc
+KSMP 188.5603127
+SNO30 472.517389075
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2002040100.nc
+KSMP 381.623534234
+SNO30 721.10974267
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2003040100.nc
+KSMP 415.987862359
+SNO30 747.268561234
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2004040100.nc
+KSMP 213.815660532
+SNO30 498.034114363
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2005040100.nc
+KSMP 41.5880794854
+SNO30 292.199361652
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2006040100.nc
+KSMP 153.178501516
+SNO30 446.576418128
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2007040100.nc
+KSMP 212.613348365
+SNO30 434.904670466
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2008040100.nc
+KSMP 0.0
+SNO30 262.64211825
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2009040100.nc
+KSMP 4.80624040597e-05
+SNO30 91.3393976378
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2010040100.nc
+KSMP 120.502469022
+SNO30 367.363466321
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2011040100.nc
+KSMP 0.000632600511277
+SNO30 114.801927246
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2012040100.nc
+KSMP 0.0
+SNO30 185.81520183
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2013040100.nc
+KSMP 659.930442799
+SNO30 1039.66311302
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2014040100.nc
+KSMP 129.665550724
+SNO30 391.189530644
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2015040100.nc
+KSMP 225.512860669
+SNO30 585.801752182
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2016040100.nc
+KSMP 312.653592408
+SNO30 619.811996356
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2017040100.nc
+KSMP 261.417346053
+SNO30 550.371071347
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2018040100.nc
+KSMP 0.0
+SNO30 77.0405634706
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2019040100.nc
+KSMP 541.013198389
+SNO30 938.107340488
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2020040100.nc
+KSMP 97.7790693177
+SNO30 334.543025049
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2021040100.nc
+KSMP 351.837759996
+SNO30 566.727457288
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2022040100.nc
+KSMP 0.0
+SNO30 170.113006137
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2023040100.nc
+KSMP 243.309902778
+SNO30 567.493456466
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2024040100.nc
+KSMP 139.480218018
+SNO30 384.688644294
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2025040100.nc
+KSMP 0.0
+SNO30 123.427679832
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2026040100.nc
+KSMP 578.553277044
+SNO30 964.005621262
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2027040100.nc
+KSMP 0.0
+SNO30 195.822430937
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2028040100.nc
+KSMP 0.0
+SNO30 168.691953407
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2029040100.nc
+KSMP 2.94090904013
+SNO30 44.5208020031
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2030040100.nc
+KSMP 524.430823223
+SNO30 731.608951504
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2031040100.nc
+KSMP 128.465325707
+SNO30 396.019952066
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2032040100.nc
+KSMP 500.044718445
+SNO30 783.26170892
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2033040100.nc
+KSMP 386.968111878
+SNO30 700.947841595
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2034040100.nc
+KSMP 0.0
+SNO30 7.21243319686
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2035040100.nc
+KSMP 63.0447473011
+SNO30 356.285981666
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2036040100.nc
+KSMP 0.0
+SNO30 134.977409883
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2037040100.nc
+KSMP 0.0
+SNO30 115.562075606
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2038040100.nc
+KSMP 79.7262609032
+SNO30 343.431954229
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2039040100.nc
+KSMP 382.666655989
+SNO30 500.821988702
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2040040100.nc
+KSMP 310.690455386
+SNO30 651.585719848
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2041040100.nc
+KSMP 0.0
+SNO30 163.779024034
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2042040100.nc
+KSMP 0.0
+SNO30 257.813254152
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2043040100.nc
+KSMP 115.422518182
+SNO30 527.241896972
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2044040100.nc
+KSMP 131.030417026
+SNO30 305.530440618
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2045040100.nc
+KSMP 419.746078249
+SNO30 664.63222978
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2046040100.nc
+KSMP 0.0
+SNO30 35.252633946
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2047040100.nc
+KSMP 6.71811302796
+SNO30 128.569380605
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2048040100.nc
+KSMP 9.78626974681
+SNO30 143.386697895
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2049040100.nc
+KSMP 138.026520077
+SNO30 390.26025295
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2050040100.nc
+KSMP 29.457883289
+SNO30 243.633061588
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2051040100.nc
+KSMP 0.0
+SNO30 121.065367287
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2052040100.nc
+KSMP 738.888609189
+SNO30 902.585100347
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2053040100.nc
+KSMP 276.175458707
+SNO30 578.925420211
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2054040100.nc
+KSMP 27.6189486507
+SNO30 71.4268458083
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2055040100.nc
+KSMP 133.335017256
+SNO30 378.809287863
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2056040100.nc
+KSMP 0.0
+SNO30 175.537063834
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2057040100.nc
+KSMP 0.0
+SNO30 176.158236519
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2058040100.nc
+KSMP 0.0
+SNO30 141.089699522
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2059040100.nc
+KSMP 154.934410922
+SNO30 211.878858226
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2060040100.nc
+KSMP 327.734325617
+SNO30 476.920698422
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2061040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2062040100.nc
+KSMP 107.855601858
+SNO30 369.973206866
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2063040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2064040100.nc
+KSMP 33.1723471719
+SNO30 60.3182063985
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2065040100.nc
+KSMP 2.69207702985
+SNO30 220.845639808
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2066040100.nc
+KSMP 0.0
+SNO30 177.651251929
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2067040100.nc
+KSMP 0.0
+SNO30 191.947454132
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2068040100.nc
+KSMP 0.0
+SNO30 5.60924461216
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2069040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2070040100.nc
+KSMP 0.0
+SNO30 44.1973225962
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2071040100.nc
+KSMP 0.0
+SNO30 44.6634553227
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2072040100.nc
+KSMP 436.089081772
+SNO30 707.457065378
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2073040100.nc
+KSMP 2.21817846482
+SNO30 20.3070517239
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2074040100.nc
+KSMP 46.0650438127
+SNO30 167.254337336
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2075040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2076040100.nc
+KSMP 11.5350218599
+SNO30 23.5710750311
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2077040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2078040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2079040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2080040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2081040100.nc
+KSMP 0.0
+SNO30 0.000586851638416
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2082040100.nc
+KSMP 0.0
+SNO30 1.93946016124
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2083040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2084040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2085040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2086040100.nc
+KSMP 295.774400011
+SNO30 451.679319424
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2087040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2088040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2089040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2090040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2091040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2092040100.nc
+KSMP 0.00576452873733
+SNO30 0.122324813273
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2093040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2094040100.nc
+KSMP 0.0
+SNO30 26.992705927
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2095040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2096040100.nc
+KSMP 0.0
+SNO30 22.8760734733
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2097040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2098040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/vader/steed/cmip5/rcp8.5/bcc-csm1.1/swe/snowrad.2099040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1970040100.nc
+KSMP 251.306681116
+SNO30 368.859856175
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1971040100.nc
+KSMP 1241.86232299
+SNO30 1586.38091852
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1972040100.nc
+KSMP 950.022463062
+SNO30 1190.73128828
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1973040100.nc
+KSMP 661.540996387
+SNO30 1023.01940065
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1974040100.nc
+KSMP 879.356787501
+SNO30 1146.20403732
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1975040100.nc
+KSMP 1073.72257064
+SNO30 1445.11335669
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1976040100.nc
+KSMP 1080.90269701
+SNO30 1420.81604309
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1977040100.nc
+KSMP 647.259964966
+SNO30 978.973796767
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1978040100.nc
+KSMP 875.866981508
+SNO30 1191.34851239
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1979040100.nc
+KSMP 988.843500094
+SNO30 1424.73139644
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1980040100.nc
+KSMP 444.177083872
+SNO30 710.656288874
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1981040100.nc
+KSMP 795.130970876
+SNO30 1128.28043935
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1982040100.nc
+KSMP 618.315797623
+SNO30 954.08376856
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1983040100.nc
+KSMP 852.204598446
+SNO30 1186.004636
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1984040100.nc
+KSMP 958.119984691
+SNO30 1288.20505129
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1985040100.nc
+KSMP 762.0064789
+SNO30 1146.288046
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1986040100.nc
+KSMP 834.924582153
+SNO30 1096.09543827
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1987040100.nc
+KSMP 954.429533651
+SNO30 1309.24581395
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1988040100.nc
+KSMP 1288.2748409
+SNO30 1611.46072561
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1989040100.nc
+KSMP 649.057118794
+SNO30 840.306862428
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1990040100.nc
+KSMP 462.70400688
+SNO30 713.107634543
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1991040100.nc
+KSMP 664.390686328
+SNO30 1031.31846392
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1992040100.nc
+KSMP 697.900622662
+SNO30 896.525987985
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1993040100.nc
+KSMP 858.02522149
+SNO30 1240.12098636
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1994040100.nc
+KSMP 1091.38689817
+SNO30 1411.33922416
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1995040100.nc
+KSMP 1271.71228589
+SNO30 1576.93502207
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1996040100.nc
+KSMP 759.338620938
+SNO30 1121.84842392
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1997040100.nc
+KSMP 356.042658041
+SNO30 644.220363945
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1998040100.nc
+KSMP 940.285530958
+SNO30 1288.96028445
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.1999040100.nc
+KSMP 587.093813434
+SNO30 888.364426846
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2000040100.nc
+KSMP 1042.16665579
+SNO30 1396.56240223
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2001040100.nc
+KSMP 1050.42693497
+SNO30 1436.20359186
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2002040100.nc
+KSMP 468.22672258
+SNO30 741.090256421
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2003040100.nc
+KSMP 56.7869680949
+SNO30 250.81891199
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2004040100.nc
+KSMP 788.853987521
+SNO30 1081.1060283
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2005040100.nc
+KSMP 818.062836898
+SNO30 1189.52330422
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2006040100.nc
+KSMP 187.81665633
+SNO30 436.896584054
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2007040100.nc
+KSMP 434.943016325
+SNO30 784.629689854
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2008040100.nc
+KSMP 1022.31348773
+SNO30 1415.01927189
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2009040100.nc
+KSMP 553.765573332
+SNO30 922.456600103
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2010040100.nc
+KSMP 205.972545283
+SNO30 426.939333196
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2011040100.nc
+KSMP 426.222241655
+SNO30 748.082021291
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2012040100.nc
+KSMP 688.072271549
+SNO30 1111.13021103
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2013040100.nc
+KSMP 874.918797535
+SNO30 1167.87732508
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2014040100.nc
+KSMP 693.003986884
+SNO30 879.240680119
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2015040100.nc
+KSMP 986.440840407
+SNO30 1356.79582714
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2016040100.nc
+KSMP 509.027467428
+SNO30 782.133389105
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2017040100.nc
+KSMP 723.705145104
+SNO30 1100.38732223
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2018040100.nc
+KSMP 310.39402463
+SNO30 676.293206167
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2019040100.nc
+KSMP 551.778532286
+SNO30 922.056125907
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2020040100.nc
+KSMP 883.437777857
+SNO30 1184.41144574
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2021040100.nc
+KSMP 552.785351235
+SNO30 793.101345192
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2022040100.nc
+KSMP 552.580843636
+SNO30 933.756663349
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2023040100.nc
+KSMP 778.825920345
+SNO30 1006.89710154
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2024040100.nc
+KSMP 109.411078474
+SNO30 332.912009812
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2025040100.nc
+KSMP 602.468901503
+SNO30 885.117611994
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2026040100.nc
+KSMP 1023.99152898
+SNO30 1451.47613842
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2027040100.nc
+KSMP 466.383320035
+SNO30 802.763595929
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2028040100.nc
+KSMP 973.608525804
+SNO30 1356.45179065
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2029040100.nc
+KSMP 810.389902318
+SNO30 1173.04070872
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2030040100.nc
+KSMP 0.0
+SNO30 167.559838622
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2031040100.nc
+KSMP 66.975445475
+SNO30 341.289144333
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2032040100.nc
+KSMP 474.128135269
+SNO30 769.201140356
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2033040100.nc
+KSMP 67.5204534833
+SNO30 345.902485516
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2034040100.nc
+KSMP 619.151263561
+SNO30 1000.43076311
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2035040100.nc
+KSMP 323.050796242
+SNO30 586.272180968
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2036040100.nc
+KSMP 616.488773057
+SNO30 959.47567771
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2037040100.nc
+KSMP 110.588927573
+SNO30 414.434488233
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2038040100.nc
+KSMP 401.364618281
+SNO30 703.079413349
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2039040100.nc
+KSMP 395.143196354
+SNO30 762.708531017
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2040040100.nc
+KSMP 659.016753604
+SNO30 1003.71471653
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2041040100.nc
+KSMP 12.0909173176
+SNO30 260.989781424
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2042040100.nc
+KSMP 0.0
+SNO30 223.7559543
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2043040100.nc
+KSMP 476.521114914
+SNO30 771.850733414
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2044040100.nc
+KSMP 781.735297356
+SNO30 1279.1862249
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2045040100.nc
+KSMP 403.055365502
+SNO30 637.607539017
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2046040100.nc
+KSMP 527.065019313
+SNO30 917.492326835
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2047040100.nc
+KSMP 125.663062562
+SNO30 473.973158124
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2048040100.nc
+KSMP 2.24338049034
+SNO30 242.195091866
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2049040100.nc
+KSMP 43.3802723592
+SNO30 309.989524822
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2050040100.nc
+KSMP 139.355659432
+SNO30 488.555222974
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2051040100.nc
+KSMP 252.65280014
+SNO30 549.711739733
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2052040100.nc
+KSMP 9.13309716861
+SNO30 164.378663546
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2053040100.nc
+KSMP 748.778345705
+SNO30 1096.36799342
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2054040100.nc
+KSMP 679.092514023
+SNO30 944.900104519
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2055040100.nc
+KSMP 120.854233281
+SNO30 436.01340782
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2056040100.nc
+KSMP 255.584695966
+SNO30 543.151538945
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2057040100.nc
+KSMP 0.0
+SNO30 112.605123898
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2058040100.nc
+KSMP 0.0
+SNO30 39.7910127772
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2059040100.nc
+KSMP 0.0
+SNO30 171.843097946
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2060040100.nc
+KSMP 0.0108450237605
+SNO30 174.84331279
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2061040100.nc
+KSMP 0.0
+SNO30 267.128596449
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2062040100.nc
+KSMP 91.2249757239
+SNO30 351.48084362
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2063040100.nc
+KSMP 120.735215825
+SNO30 299.784121881
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2064040100.nc
+KSMP 0.0
+SNO30 203.369920482
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2065040100.nc
+KSMP 51.305759137
+SNO30 296.724369391
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2066040100.nc
+KSMP 559.725323349
+SNO30 882.393892971
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2067040100.nc
+KSMP 0.0
+SNO30 3.06318764753
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2068040100.nc
+KSMP 0.0
+SNO30 223.055258882
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2069040100.nc
+KSMP 13.359845726
+SNO30 313.862510614
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2070040100.nc
+KSMP 199.371778191
+SNO30 426.16606153
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2071040100.nc
+KSMP 0.0
+SNO30 42.1026947247
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2072040100.nc
+KSMP 0.0
+SNO30 143.682114384
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2073040100.nc
+KSMP 126.437028719
+SNO30 438.880220016
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2074040100.nc
+KSMP 934.336841588
+SNO30 1256.31845048
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2075040100.nc
+KSMP 43.294025036
+SNO30 291.406788263
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2076040100.nc
+KSMP 24.8541116273
+SNO30 134.479535364
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2077040100.nc
+KSMP 0.0
+SNO30 277.887988888
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2078040100.nc
+KSMP 0.0
+SNO30 33.2482150809
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2079040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2080040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2081040100.nc
+KSMP 0.0
+SNO30 3.07589153278
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2082040100.nc
+KSMP 0.0
+SNO30 151.508476986
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2083040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2084040100.nc
+KSMP 0.0
+SNO30 28.0471292341
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2085040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2086040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2087040100.nc
+KSMP 0.0
+SNO30 34.8467447707
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2088040100.nc
+KSMP 0.0
+SNO30 172.659469633
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2089040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2090040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2091040100.nc
+KSMP 20.6525935502
+SNO30 18.2255087759
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2092040100.nc
+KSMP 0.0
+SNO30 130.439041028
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2093040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2094040100.nc
+KSMP 12.2237719981
+SNO30 92.7874095405
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2095040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2096040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2097040100.nc
+KSMP 172.135853001
+SNO30 469.761559966
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2098040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/canesm2/swe/snowrad.2099040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1970040100.nc
+KSMP 63.7074782962
+SNO30 229.846603423
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1971040100.nc
+KSMP 2.48371490065
+SNO30 202.521935567
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1972040100.nc
+KSMP 196.370372435
+SNO30 365.250615353
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1973040100.nc
+KSMP 655.76054861
+SNO30 926.281627602
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1974040100.nc
+KSMP 0.0
+SNO30 154.964049044
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1975040100.nc
+KSMP 316.373644412
+SNO30 592.48793171
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1976040100.nc
+KSMP 291.903142722
+SNO30 539.040390375
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1977040100.nc
+KSMP 12.2938769191
+SNO30 239.336511854
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1978040100.nc
+KSMP 14.6188650846
+SNO30 257.166333472
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1979040100.nc
+KSMP 50.9503898991
+SNO30 194.272412806
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1980040100.nc
+KSMP 419.465489652
+SNO30 746.391883328
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1981040100.nc
+KSMP 909.519250773
+SNO30 1275.19933265
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1982040100.nc
+KSMP 75.5216691765
+SNO30 346.85329136
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1983040100.nc
+KSMP 644.522455813
+SNO30 893.486726887
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1984040100.nc
+KSMP 387.300524595
+SNO30 637.286856405
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1985040100.nc
+KSMP 124.54691992
+SNO30 480.336073851
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1986040100.nc
+KSMP 330.829760392
+SNO30 545.572147936
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1987040100.nc
+KSMP 18.8215651374
+SNO30 209.257173745
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1988040100.nc
+KSMP 25.3197940061
+SNO30 318.640721282
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1989040100.nc
+KSMP 421.377767005
+SNO30 759.901797972
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1990040100.nc
+KSMP 1220.77007184
+SNO30 1589.05087679
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1991040100.nc
+KSMP 458.581024303
+SNO30 684.533586835
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1992040100.nc
+KSMP 0.00253245514805
+SNO30 120.971735603
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1993040100.nc
+KSMP 200.145746477
+SNO30 389.207248624
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1994040100.nc
+KSMP 230.40164771
+SNO30 499.89289105
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1995040100.nc
+KSMP 768.564449725
+SNO30 998.913381283
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1996040100.nc
+KSMP 256.63205291
+SNO30 509.232486667
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1997040100.nc
+KSMP 97.2339374821
+SNO30 404.61798911
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1998040100.nc
+KSMP 0.0
+SNO30 85.232430389
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.1999040100.nc
+KSMP 198.440883729
+SNO30 352.704372804
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2000040100.nc
+KSMP 474.16886972
+SNO30 809.571775039
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2001040100.nc
+KSMP 265.41358886
+SNO30 483.222103802
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2002040100.nc
+KSMP 408.474983935
+SNO30 779.216453101
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2003040100.nc
+KSMP 0.0
+SNO30 23.4506389194
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2004040100.nc
+KSMP 0.0
+SNO30 3.18348132805
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2005040100.nc
+KSMP 689.091662674
+SNO30 927.27138408
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2006040100.nc
+KSMP 325.128426803
+SNO30 676.767146977
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2007040100.nc
+KSMP 357.2518755
+SNO30 772.69861086
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2008040100.nc
+KSMP 679.530390547
+SNO30 913.298210413
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2009040100.nc
+KSMP 337.452553925
+SNO30 640.391632605
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2010040100.nc
+KSMP 40.1964750217
+SNO30 271.313524568
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2011040100.nc
+KSMP 87.2272499162
+SNO30 374.305250233
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2012040100.nc
+KSMP 421.118026882
+SNO30 797.260379716
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2013040100.nc
+KSMP 186.808446444
+SNO30 448.859384444
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2014040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2015040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2016040100.nc
+KSMP 97.9307586193
+SNO30 265.925187528
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2017040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2018040100.nc
+KSMP 63.1728666117
+SNO30 214.165723051
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2019040100.nc
+KSMP 221.609968602
+SNO30 427.631830156
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2020040100.nc
+KSMP 540.619418128
+SNO30 822.765380995
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2021040100.nc
+KSMP 391.320684493
+SNO30 722.672859415
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2022040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2023040100.nc
+KSMP 144.555133471
+SNO30 320.910342809
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2024040100.nc
+KSMP 168.419735419
+SNO30 243.866210183
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2025040100.nc
+KSMP 0.0
+SNO30 2.72110014237
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2026040100.nc
+KSMP 117.32369564
+SNO30 335.441563057
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2027040100.nc
+KSMP 416.707412521
+SNO30 630.714767689
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2028040100.nc
+KSMP 116.413534194
+SNO30 330.814826727
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2029040100.nc
+KSMP 183.917030973
+SNO30 498.633769175
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2030040100.nc
+KSMP 166.06860817
+SNO30 398.298472205
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2031040100.nc
+KSMP 220.128648839
+SNO30 373.404409007
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2032040100.nc
+KSMP 41.8826389769
+SNO30 263.595299244
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2033040100.nc
+KSMP 32.8593720347
+SNO30 271.191707069
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2034040100.nc
+KSMP 50.768160015
+SNO30 270.533532999
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2035040100.nc
+KSMP 260.555140661
+SNO30 584.382608136
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2036040100.nc
+KSMP 134.164101652
+SNO30 420.08038433
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2037040100.nc
+KSMP 71.8948890554
+SNO30 73.001527397
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2038040100.nc
+KSMP 20.0702383806
+SNO30 273.614582662
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2039040100.nc
+KSMP 12.5073587097
+SNO30 208.699453677
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2040040100.nc
+KSMP 7.39323607528
+SNO30 238.872479771
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2041040100.nc
+KSMP 814.340757602
+SNO30 1229.80443805
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2042040100.nc
+KSMP 73.1946531411
+SNO30 202.567863982
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2043040100.nc
+KSMP 12.7218936767
+SNO30 87.2927341953
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2044040100.nc
+KSMP 0.0
+SNO30 17.1722795321
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2045040100.nc
+KSMP 91.0232399019
+SNO30 158.785990711
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2046040100.nc
+KSMP 0.0
+SNO30 39.6544882019
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2047040100.nc
+KSMP 0.0
+SNO30 19.6706506957
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2048040100.nc
+KSMP 0.0
+SNO30 133.867176274
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2049040100.nc
+KSMP 149.543931939
+SNO30 367.172385438
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2050040100.nc
+KSMP 20.8485576107
+SNO30 25.7388673503
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2051040100.nc
+KSMP 0.0
+SNO30 93.8364615253
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2052040100.nc
+KSMP 0.0
+SNO30 124.672320115
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2053040100.nc
+KSMP 335.961135762
+SNO30 597.833782758
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2054040100.nc
+KSMP 2.39844074444
+SNO30 5.79998318441
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2055040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2056040100.nc
+KSMP 314.41529757
+SNO30 530.145759811
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2057040100.nc
+KSMP 0.0
+SNO30 49.4044844431
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2058040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2059040100.nc
+KSMP 0.0
+SNO30 127.168662477
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2060040100.nc
+KSMP 478.05199423
+SNO30 662.044167746
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2061040100.nc
+KSMP 290.204771245
+SNO30 456.481513078
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2062040100.nc
+KSMP 0.0
+SNO30 5.34767767541
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2063040100.nc
+KSMP 0.0
+SNO30 2.32899020573
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2064040100.nc
+KSMP 332.225210989
+SNO30 796.888027389
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2065040100.nc
+KSMP 20.001683928
+SNO30 266.540581262
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2066040100.nc
+KSMP 6.46104799563
+SNO30 148.838550753
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2067040100.nc
+KSMP 161.496406497
+SNO30 365.822871087
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2068040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2069040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2070040100.nc
+KSMP 0.0
+SNO30 194.849270596
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2071040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2072040100.nc
+KSMP 28.7797462999
+SNO30 246.68210976
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2073040100.nc
+KSMP 0.0
+SNO30 42.3568467673
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2074040100.nc
+KSMP 192.737048744
+SNO30 379.861061878
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2075040100.nc
+KSMP 8.97606214703
+SNO30 50.1275528599
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2076040100.nc
+KSMP 0.0
+SNO30 3.81878241925
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2077040100.nc
+KSMP 0.139936373102
+SNO30 15.339778385
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2078040100.nc
+KSMP 71.8464213071
+SNO30 96.5885366812
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2079040100.nc
+KSMP 15.3065877338
+SNO30 71.9663101603
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2080040100.nc
+KSMP 0.0
+SNO30 29.2743539791
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2081040100.nc
+KSMP 0.0
+SNO30 9.65280563565
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2082040100.nc
+KSMP 227.218901944
+SNO30 320.019054292
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2083040100.nc
+KSMP 21.718494696
+SNO30 53.321422827
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2084040100.nc
+KSMP 34.0006841174
+SNO30 101.914745675
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2085040100.nc
+KSMP 0.0
+SNO30 22.0495419555
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2086040100.nc
+KSMP 0.0
+SNO30 109.451786967
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2087040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2088040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2089040100.nc
+KSMP 5.51108175478
+SNO30 13.9875716422
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2090040100.nc
+KSMP 50.0259293108
+SNO30 83.7094926706
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2091040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2092040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2093040100.nc
+KSMP 0.0
+SNO30 40.5106939871
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2094040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2095040100.nc
+KSMP 107.032119562
+SNO30 281.953076068
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2096040100.nc
+KSMP 0.0
+SNO30 12.6362290178
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2097040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2098040100.nc
+KSMP 39.4296602446
+SNO30 72.0028469803
+/home/disk/r2d2/steed/cmip5/rcp8.5/ccsm4/swe/snowrad.2099040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1970040100.nc
+KSMP 261.858360406
+SNO30 424.52527959
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1971040100.nc
+KSMP 704.188930031
+SNO30 950.321581957
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1972040100.nc
+KSMP 376.364538565
+SNO30 552.979724578
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1973040100.nc
+KSMP 414.141458998
+SNO30 675.675808725
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1974040100.nc
+KSMP 264.948045765
+SNO30 448.800823253
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1975040100.nc
+KSMP 491.473263698
+SNO30 689.720212809
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1976040100.nc
+KSMP 392.077214757
+SNO30 598.626217873
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1977040100.nc
+KSMP 434.914046388
+SNO30 646.772051211
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1978040100.nc
+KSMP 734.06026466
+SNO30 1046.9255068
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1979040100.nc
+KSMP 417.880586122
+SNO30 655.519091751
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1980040100.nc
+KSMP 138.095159281
+SNO30 383.611058324
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1981040100.nc
+KSMP 708.819216104
+SNO30 879.322131429
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1982040100.nc
+KSMP 665.902378528
+SNO30 888.406827618
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1983040100.nc
+KSMP 252.326928322
+SNO30 411.509622793
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1984040100.nc
+KSMP 470.647381189
+SNO30 714.324679874
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1985040100.nc
+KSMP 453.085833394
+SNO30 650.493985066
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1986040100.nc
+KSMP 417.988376301
+SNO30 658.174002709
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1987040100.nc
+KSMP 355.671330525
+SNO30 566.604284749
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1988040100.nc
+KSMP 207.205853947
+SNO30 434.411792702
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1989040100.nc
+KSMP 567.483908475
+SNO30 902.944689393
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1990040100.nc
+KSMP 711.091706911
+SNO30 946.240660969
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1991040100.nc
+KSMP 418.222531649
+SNO30 613.625528975
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1992040100.nc
+KSMP 197.483824655
+SNO30 376.722978313
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1993040100.nc
+KSMP 408.549783182
+SNO30 600.931285513
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1994040100.nc
+KSMP 756.90763118
+SNO30 1000.98376649
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1995040100.nc
+KSMP 611.835767233
+SNO30 796.281804622
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1996040100.nc
+KSMP 485.043672117
+SNO30 651.224575085
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1997040100.nc
+KSMP 444.656933271
+SNO30 655.117719453
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1998040100.nc
+KSMP 622.955506771
+SNO30 779.225750934
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.1999040100.nc
+KSMP 472.638204965
+SNO30 734.423374592
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2000040100.nc
+KSMP 330.426886276
+SNO30 550.613558164
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2001040100.nc
+KSMP 452.207694589
+SNO30 634.761656851
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2002040100.nc
+KSMP 313.962847132
+SNO30 484.670388146
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2003040100.nc
+KSMP 263.006109695
+SNO30 506.176853275
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2004040100.nc
+KSMP 651.143274508
+SNO30 845.464689778
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2005040100.nc
+KSMP 438.256376109
+SNO30 700.362586152
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2006040100.nc
+KSMP 17.2497427967
+SNO30 269.459794823
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2007040100.nc
+KSMP 377.631582096
+SNO30 597.136312779
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2008040100.nc
+KSMP 387.715843174
+SNO30 590.054650438
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2009040100.nc
+KSMP 357.087249745
+SNO30 548.78015978
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2010040100.nc
+KSMP 313.800206359
+SNO30 505.962126292
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2011040100.nc
+KSMP 557.867565227
+SNO30 786.352765421
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2012040100.nc
+KSMP 675.4963601
+SNO30 916.136470131
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2013040100.nc
+KSMP 460.528409833
+SNO30 755.32550773
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2014040100.nc
+KSMP 245.493736668
+SNO30 481.44501791
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2015040100.nc
+KSMP 368.502752838
+SNO30 539.0894468
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2016040100.nc
+KSMP 105.654573709
+SNO30 347.991515631
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2017040100.nc
+KSMP 558.876830971
+SNO30 817.558710899
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2018040100.nc
+KSMP 273.511205831
+SNO30 503.542108952
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2019040100.nc
+KSMP 17.4289981962
+SNO30 246.288969835
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2020040100.nc
+KSMP 441.667529345
+SNO30 781.840010142
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2021040100.nc
+KSMP 229.232668051
+SNO30 408.744189354
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2022040100.nc
+KSMP 399.788316441
+SNO30 681.039683627
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2023040100.nc
+KSMP 407.768609593
+SNO30 627.134448337
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2024040100.nc
+KSMP 300.857352893
+SNO30 475.413028416
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2025040100.nc
+KSMP 391.984456302
+SNO30 612.289344586
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2026040100.nc
+KSMP 505.006657503
+SNO30 678.537551918
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2027040100.nc
+KSMP 598.610403024
+SNO30 850.315414766
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2028040100.nc
+KSMP 38.1878215841
+SNO30 263.93366122
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2029040100.nc
+KSMP 529.979489356
+SNO30 749.086776752
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2030040100.nc
+KSMP 55.4439068083
+SNO30 386.612031197
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2031040100.nc
+KSMP 108.31613173
+SNO30 246.620448487
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2032040100.nc
+KSMP 723.632537666
+SNO30 872.942685878
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2033040100.nc
+KSMP 560.596121473
+SNO30 698.082852208
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2034040100.nc
+KSMP 106.883765625
+SNO30 355.706970872
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2035040100.nc
+KSMP 503.357527335
+SNO30 724.237774128
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2036040100.nc
+KSMP 93.8075349834
+SNO30 382.412558321
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2037040100.nc
+KSMP 0.0
+SNO30 161.436941043
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2038040100.nc
+KSMP 130.690383757
+SNO30 373.509359426
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2039040100.nc
+KSMP 374.376219965
+SNO30 581.045347792
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2040040100.nc
+KSMP 57.7696655756
+SNO30 283.160455141
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2041040100.nc
+KSMP 47.715128054
+SNO30 252.367858491
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2042040100.nc
+KSMP 0.0
+SNO30 187.920830387
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2043040100.nc
+KSMP 25.3812855154
+SNO30 211.266784939
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2044040100.nc
+KSMP 75.2466106555
+SNO30 194.283145448
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2045040100.nc
+KSMP 0.791473872438
+SNO30 215.029139762
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2046040100.nc
+KSMP 125.839433074
+SNO30 377.900315017
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2047040100.nc
+KSMP 0.0
+SNO30 135.702774213
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2048040100.nc
+KSMP 5.71862857221
+SNO30 178.070496774
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2049040100.nc
+KSMP 236.861138911
+SNO30 469.687853737
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2050040100.nc
+KSMP 40.5076932128
+SNO30 185.180486847
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2051040100.nc
+KSMP 22.9794250513
+SNO30 266.246977049
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2052040100.nc
+KSMP 0.0
+SNO30 51.1679576346
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2053040100.nc
+KSMP 158.104214051
+SNO30 306.422641432
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2054040100.nc
+KSMP 306.151561844
+SNO30 571.843895648
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2055040100.nc
+KSMP 0.0
+SNO30 68.9468692112
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2056040100.nc
+KSMP 160.193969329
+SNO30 360.087481193
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2057040100.nc
+KSMP 172.592136538
+SNO30 398.873169728
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2058040100.nc
+KSMP 108.665737161
+SNO30 387.342439876
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2059040100.nc
+KSMP 0.0
+SNO30 108.56483447
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2060040100.nc
+KSMP 0.0
+SNO30 57.1083944723
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2061040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2062040100.nc
+KSMP 188.846599028
+SNO30 364.300411746
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2063040100.nc
+KSMP 0.0
+SNO30 22.9098014116
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2064040100.nc
+KSMP 340.714421123
+SNO30 612.529107311
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2065040100.nc
+KSMP 4.62354655809
+SNO30 199.760703069
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2066040100.nc
+KSMP 2.56367898975
+SNO30 65.4671229013
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2067040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2068040100.nc
+KSMP 23.766703034
+SNO30 210.436478907
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2069040100.nc
+KSMP 0.0
+SNO30 48.5160488154
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2070040100.nc
+KSMP 7.35472635636
+SNO30 115.594478813
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2071040100.nc
+KSMP 0.0
+SNO30 130.411985519
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2072040100.nc
+KSMP 0.0
+SNO30 213.851177
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2073040100.nc
+KSMP 0.0
+SNO30 39.7635848221
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2074040100.nc
+KSMP 64.1961735422
+SNO30 297.92638942
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2075040100.nc
+KSMP 340.749723124
+SNO30 561.627909776
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2076040100.nc
+KSMP 0.0
+SNO30 81.9568249012
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2077040100.nc
+KSMP 0.0
+SNO30 7.60150828414
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2078040100.nc
+KSMP 5.09589291068
+SNO30 52.6595016128
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2079040100.nc
+KSMP 0.0
+SNO30 0.00327904004678
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2080040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2081040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2082040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2083040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2084040100.nc
+KSMP 0.0
+SNO30 54.1561748176
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2085040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2086040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2087040100.nc
+KSMP 0.0
+SNO30 71.4872006567
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2088040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2089040100.nc
+KSMP 0.0
+SNO30 72.9690950291
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2090040100.nc
+KSMP 0.0
+SNO30 108.377594116
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2091040100.nc
+KSMP 0.0
+SNO30 0.00129137800386
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2092040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2093040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2094040100.nc
+KSMP 0.0
+SNO30 0.00420506960843
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2095040100.nc
+KSMP 0.0
+SNO30 51.3409787243
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2096040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2097040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2098040100.nc
+KSMP 0.0
+SNO30 16.2378981224
+/home/disk/r2d2/steed/cmip5/rcp8.5/csiro-mk3.6.0/swe/snowrad.2099040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1970040100.nc
+KSMP 397.966070495
+SNO30 504.143262592
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1971040100.nc
+KSMP 826.513467356
+SNO30 1037.12484963
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1972040100.nc
+KSMP 598.747066754
+SNO30 762.091090377
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1973040100.nc
+KSMP 964.595841016
+SNO30 1218.99659916
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1974040100.nc
+KSMP 930.155001949
+SNO30 1226.16794234
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1975040100.nc
+KSMP 685.940812767
+SNO30 835.524720076
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1976040100.nc
+KSMP 1011.79275133
+SNO30 1376.131511
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1977040100.nc
+KSMP 858.477430745
+SNO30 1081.27468413
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1978040100.nc
+KSMP 775.487600725
+SNO30 994.041243159
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1979040100.nc
+KSMP 856.87336921
+SNO30 1008.45762355
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1980040100.nc
+KSMP 1060.46742407
+SNO30 1343.74702533
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1981040100.nc
+KSMP 1036.82990736
+SNO30 1309.81361271
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1982040100.nc
+KSMP 506.879964275
+SNO30 688.759181415
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1983040100.nc
+KSMP 881.187480985
+SNO30 1197.2719686
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1984040100.nc
+KSMP 888.926212925
+SNO30 1154.02425607
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1985040100.nc
+KSMP 935.3459907
+SNO30 1098.08237678
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1986040100.nc
+KSMP 924.860550684
+SNO30 1271.65553523
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1987040100.nc
+KSMP 1241.12830965
+SNO30 1530.04173444
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1988040100.nc
+KSMP 835.714901839
+SNO30 1124.90858069
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1989040100.nc
+KSMP 1070.69346257
+SNO30 1398.37340442
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1990040100.nc
+KSMP 887.81876251
+SNO30 1100.36250808
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1991040100.nc
+KSMP 783.668082019
+SNO30 1012.27586311
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1992040100.nc
+KSMP 1320.02914147
+SNO30 1621.70785159
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1993040100.nc
+KSMP 807.950394478
+SNO30 1014.74811449
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1994040100.nc
+KSMP 1008.09398602
+SNO30 1362.14356669
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1995040100.nc
+KSMP 862.091291359
+SNO30 1056.64320037
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1996040100.nc
+KSMP 1065.3997247
+SNO30 1298.92728835
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1997040100.nc
+KSMP 957.29617653
+SNO30 1225.19168309
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1998040100.nc
+KSMP 770.353543579
+SNO30 1043.20231627
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.1999040100.nc
+KSMP 708.348495971
+SNO30 952.402217572
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2000040100.nc
+KSMP 773.21924002
+SNO30 1010.54401352
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2001040100.nc
+KSMP 921.152670145
+SNO30 1233.41554829
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2002040100.nc
+KSMP 720.257844698
+SNO30 921.778234057
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2003040100.nc
+KSMP 864.697037637
+SNO30 1094.15044128
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2004040100.nc
+KSMP 662.156779845
+SNO30 912.884166053
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2005040100.nc
+KSMP 765.269427869
+SNO30 1039.44156947
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2006040100.nc
+KSMP 997.31870971
+SNO30 1248.5425368
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2007040100.nc
+KSMP 536.945470456
+SNO30 756.326741022
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2008040100.nc
+KSMP 1190.48684162
+SNO30 1541.5662573
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2009040100.nc
+KSMP 761.469720311
+SNO30 993.016019066
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2010040100.nc
+KSMP 610.082902436
+SNO30 802.568606958
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2011040100.nc
+KSMP 943.862569588
+SNO30 1173.05428117
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2012040100.nc
+KSMP 1063.13583917
+SNO30 1371.30759654
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2013040100.nc
+KSMP 687.886012133
+SNO30 944.572638553
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2014040100.nc
+KSMP 818.208011505
+SNO30 1024.0132162
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2015040100.nc
+KSMP 771.024518454
+SNO30 1056.04716926
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2016040100.nc
+KSMP 1109.47826635
+SNO30 1415.5788733
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2017040100.nc
+KSMP 642.261330671
+SNO30 907.788949905
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2018040100.nc
+KSMP 352.897936791
+SNO30 535.442317501
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2019040100.nc
+KSMP 581.723134003
+SNO30 849.547004505
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2020040100.nc
+KSMP 781.704350197
+SNO30 1036.60343507
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2021040100.nc
+KSMP 638.145381085
+SNO30 986.74415442
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2022040100.nc
+KSMP 395.667725168
+SNO30 593.931678035
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2023040100.nc
+KSMP 917.284537449
+SNO30 1165.89094225
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2024040100.nc
+KSMP 816.708524785
+SNO30 987.706515936
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2025040100.nc
+KSMP 941.649658555
+SNO30 1212.07810658
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2026040100.nc
+KSMP 919.038694975
+SNO30 1149.10352979
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2027040100.nc
+KSMP 588.557746035
+SNO30 834.307166169
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2028040100.nc
+KSMP 723.859777953
+SNO30 1032.87762596
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2029040100.nc
+KSMP 735.260231147
+SNO30 1074.90016959
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2030040100.nc
+KSMP 551.345761301
+SNO30 786.174230293
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2031040100.nc
+KSMP 1038.90722861
+SNO30 1241.40399539
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2032040100.nc
+KSMP 768.837101003
+SNO30 976.247247974
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2033040100.nc
+KSMP 675.216806398
+SNO30 967.469573704
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2034040100.nc
+KSMP 1004.42674658
+SNO30 1264.12841095
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2035040100.nc
+KSMP 1094.52967002
+SNO30 1423.60950225
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2036040100.nc
+KSMP 511.646047598
+SNO30 756.854833384
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2037040100.nc
+KSMP 726.175997629
+SNO30 968.210131739
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2038040100.nc
+KSMP 1026.98939424
+SNO30 1349.00166052
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2039040100.nc
+KSMP 612.093630954
+SNO30 808.178148933
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2040040100.nc
+KSMP 739.028602388
+SNO30 1030.54080393
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2041040100.nc
+KSMP 267.094685308
+SNO30 441.970144388
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2042040100.nc
+KSMP 515.938773719
+SNO30 780.898893962
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2043040100.nc
+KSMP 295.274153699
+SNO30 492.774785329
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2044040100.nc
+KSMP 606.247498786
+SNO30 877.197792946
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2045040100.nc
+KSMP 492.215174108
+SNO30 726.3431204
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2046040100.nc
+KSMP 282.656546238
+SNO30 502.95354464
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2047040100.nc
+KSMP 153.760942507
+SNO30 367.096702145
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2048040100.nc
+KSMP 900.280249507
+SNO30 1221.49035375
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2049040100.nc
+KSMP 795.93800279
+SNO30 1063.78586413
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2050040100.nc
+KSMP 534.836918499
+SNO30 813.702875952
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2051040100.nc
+KSMP 490.093391497
+SNO30 733.131791539
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2052040100.nc
+KSMP 698.206915655
+SNO30 1016.56029223
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2053040100.nc
+KSMP 646.549103189
+SNO30 920.877407772
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2054040100.nc
+KSMP 472.677235555
+SNO30 717.30263483
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2055040100.nc
+KSMP 516.180480314
+SNO30 763.663546018
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2056040100.nc
+KSMP 407.910156508
+SNO30 657.093605928
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2057040100.nc
+KSMP 911.989322434
+SNO30 1275.45611103
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2058040100.nc
+KSMP 742.152773743
+SNO30 951.668545294
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2059040100.nc
+KSMP 349.027309913
+SNO30 687.180050146
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2060040100.nc
+KSMP 526.243892452
+SNO30 754.432912748
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2061040100.nc
+KSMP 647.032244953
+SNO30 883.280784286
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2062040100.nc
+KSMP 697.835586972
+SNO30 960.437942547
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2063040100.nc
+KSMP 1011.65931038
+SNO30 1340.35441533
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2064040100.nc
+KSMP 944.929395641
+SNO30 1232.36039467
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2065040100.nc
+KSMP 920.4442598
+SNO30 1199.65042928
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2066040100.nc
+KSMP 704.448787365
+SNO30 886.623101022
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2067040100.nc
+KSMP 431.926648038
+SNO30 669.138246576
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2068040100.nc
+KSMP 446.320130283
+SNO30 761.088130352
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2069040100.nc
+KSMP 580.859678131
+SNO30 867.492103676
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2070040100.nc
+KSMP 846.977606285
+SNO30 1203.24172823
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2071040100.nc
+KSMP 450.297034472
+SNO30 666.292982594
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2072040100.nc
+KSMP 375.373837247
+SNO30 567.129595158
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2073040100.nc
+KSMP 585.256315612
+SNO30 852.835313622
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2074040100.nc
+KSMP 541.609483972
+SNO30 852.437434783
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2075040100.nc
+KSMP 1075.67808364
+SNO30 1493.88890991
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2076040100.nc
+KSMP 689.839019931
+SNO30 1046.27780002
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2077040100.nc
+KSMP 447.794853928
+SNO30 769.87912027
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2078040100.nc
+KSMP 776.457302312
+SNO30 1104.2815384
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2079040100.nc
+KSMP 763.215145534
+SNO30 1056.55705531
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2080040100.nc
+KSMP 269.642687704
+SNO30 654.682669714
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2081040100.nc
+KSMP 596.367408808
+SNO30 906.918904804
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2082040100.nc
+KSMP 673.736568933
+SNO30 1000.60699581
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2083040100.nc
+KSMP 393.991350604
+SNO30 649.043754813
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2084040100.nc
+KSMP 927.752750834
+SNO30 1336.84936728
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2085040100.nc
+KSMP 453.725170897
+SNO30 707.100395712
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2086040100.nc
+KSMP 255.029859057
+SNO30 421.923037498
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2087040100.nc
+KSMP 1132.38912341
+SNO30 1510.39304
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2088040100.nc
+KSMP 790.380498521
+SNO30 1091.13876878
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2089040100.nc
+KSMP 638.92937219
+SNO30 921.724065298
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2090040100.nc
+KSMP 861.15261635
+SNO30 1133.95912402
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2091040100.nc
+KSMP 223.3981078
+SNO30 477.323565192
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2092040100.nc
+KSMP 710.662170026
+SNO30 968.893471934
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2093040100.nc
+KSMP 483.401450539
+SNO30 766.746157014
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2094040100.nc
+KSMP 545.440703057
+SNO30 834.933321783
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2095040100.nc
+KSMP 606.297261626
+SNO30 902.674338003
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2096040100.nc
+KSMP 603.493088442
+SNO30 957.881955357
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2097040100.nc
+KSMP 539.917489372
+SNO30 748.071152602
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2098040100.nc
+KSMP 790.78066179
+SNO30 1147.76895817
+/home/disk/r2d2/steed/cmip5/rcp8.5/fgoals-g2/swe/snowrad.2099040100.nc
+KSMP 359.03200592
+SNO30 656.894592076
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1970040100.nc
+KSMP 27.3904558652
+SNO30 96.3295353938
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1971040100.nc
+KSMP 516.593684141
+SNO30 866.399663852
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1972040100.nc
+KSMP 1082.73271615
+SNO30 1265.69688946
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1973040100.nc
+KSMP 19.3850266359
+SNO30 157.186902643
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1974040100.nc
+KSMP 165.095397202
+SNO30 444.82776893
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1975040100.nc
+KSMP 211.623433123
+SNO30 426.641586361
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1976040100.nc
+KSMP 468.691591012
+SNO30 735.03516598
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1977040100.nc
+KSMP 409.547645583
+SNO30 620.050079452
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1978040100.nc
+KSMP 601.296266006
+SNO30 820.258957684
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1979040100.nc
+KSMP 644.34555211
+SNO30 1062.87548839
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1980040100.nc
+KSMP 182.397250331
+SNO30 394.361620338
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1981040100.nc
+KSMP 1087.95114329
+SNO30 1464.78592393
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1982040100.nc
+KSMP 802.315119874
+SNO30 1102.53774717
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1983040100.nc
+KSMP 110.068142534
+SNO30 287.506627627
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1984040100.nc
+KSMP 44.9588219953
+SNO30 249.683358
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1985040100.nc
+KSMP 24.952002296
+SNO30 232.072338218
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1986040100.nc
+KSMP 379.926392182
+SNO30 764.574910453
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1987040100.nc
+KSMP 598.990553502
+SNO30 940.227270224
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1988040100.nc
+KSMP 291.22363612
+SNO30 566.1721438
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1989040100.nc
+KSMP 0.0
+SNO30 10.2800918538
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1990040100.nc
+KSMP 763.269214948
+SNO30 1132.60422665
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1991040100.nc
+KSMP 108.359839604
+SNO30 353.672405224
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1992040100.nc
+KSMP 386.069737787
+SNO30 626.789423958
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1993040100.nc
+KSMP 96.8501694396
+SNO30 360.269422055
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1994040100.nc
+KSMP 366.71415062
+SNO30 575.324413221
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1995040100.nc
+KSMP 471.47585217
+SNO30 654.186250172
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1996040100.nc
+KSMP 525.345886499
+SNO30 814.667758247
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1997040100.nc
+KSMP 158.770760366
+SNO30 352.843843951
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1998040100.nc
+KSMP 319.641496893
+SNO30 502.521239929
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.1999040100.nc
+KSMP 206.945290221
+SNO30 418.023905736
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2000040100.nc
+KSMP 87.2122280416
+SNO30 366.965984062
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2001040100.nc
+KSMP 710.557400639
+SNO30 985.328879881
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2002040100.nc
+KSMP 489.010592006
+SNO30 721.073385954
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2003040100.nc
+KSMP 162.480156395
+SNO30 388.230722835
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2004040100.nc
+KSMP 202.468451094
+SNO30 416.473551379
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2005040100.nc
+KSMP 454.804779697
+SNO30 657.232561402
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2006040100.nc
+KSMP 147.434806763
+SNO30 381.768254006
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2007040100.nc
+KSMP 447.918253087
+SNO30 691.535055107
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2008040100.nc
+KSMP 179.141789193
+SNO30 400.709340407
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2009040100.nc
+KSMP 51.2512916991
+SNO30 255.5657497
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2010040100.nc
+KSMP 505.655554105
+SNO30 804.167085583
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2011040100.nc
+KSMP 571.293366095
+SNO30 825.317182307
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2012040100.nc
+KSMP 546.109329154
+SNO30 820.286225128
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2013040100.nc
+KSMP 233.025654125
+SNO30 491.75122337
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2014040100.nc
+KSMP 500.874322981
+SNO30 795.548146631
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2015040100.nc
+KSMP 11.1409933324
+SNO30 193.338679508
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2016040100.nc
+KSMP 0.0
+SNO30 171.027346684
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2017040100.nc
+KSMP 0.0
+SNO30 110.839066865
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2018040100.nc
+KSMP 0.0
+SNO30 189.265697061
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2019040100.nc
+KSMP 0.0
+SNO30 80.5704096083
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2020040100.nc
+KSMP 61.5260658822
+SNO30 337.801909004
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2021040100.nc
+KSMP 288.0005484
+SNO30 639.039932435
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2022040100.nc
+KSMP 73.0904396919
+SNO30 354.77773109
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2023040100.nc
+KSMP 262.448013677
+SNO30 440.694160909
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2024040100.nc
+KSMP 475.496963359
+SNO30 826.101903713
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2025040100.nc
+KSMP 35.0319004286
+SNO30 284.213909846
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2026040100.nc
+KSMP 0.0
+SNO30 55.5837752735
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2027040100.nc
+KSMP 0.0740669890926
+SNO30 172.423307685
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2028040100.nc
+KSMP 117.623198271
+SNO30 463.230769563
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2029040100.nc
+KSMP 368.99592506
+SNO30 638.555454522
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2030040100.nc
+KSMP 0.0
+SNO30 132.690806975
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2031040100.nc
+KSMP 324.16656981
+SNO30 498.004657534
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2032040100.nc
+KSMP 307.43719702
+SNO30 590.078610186
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2033040100.nc
+KSMP 0.0
+SNO30 2.63432523725
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2034040100.nc
+KSMP 553.434800359
+SNO30 833.332816331
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2035040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2036040100.nc
+KSMP 151.283512347
+SNO30 381.398881625
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2037040100.nc
+KSMP 280.115833232
+SNO30 504.539840579
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2038040100.nc
+KSMP 0.0
+SNO30 53.6310631584
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2039040100.nc
+KSMP 17.7335848055
+SNO30 229.372926037
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2040040100.nc
+KSMP 27.690709246
+SNO30 246.624936596
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2041040100.nc
+KSMP 18.7978472758
+SNO30 300.220439059
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2042040100.nc
+KSMP 239.706936536
+SNO30 505.400340447
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2043040100.nc
+KSMP 145.611950988
+SNO30 383.865007342
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2044040100.nc
+KSMP 0.0
+SNO30 178.61939668
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2045040100.nc
+KSMP 0.0
+SNO30 191.747198135
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2046040100.nc
+KSMP 0.0
+SNO30 13.7212701765
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2047040100.nc
+KSMP 63.4892404632
+SNO30 293.005150181
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2048040100.nc
+KSMP 0.0
+SNO30 162.582462865
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2049040100.nc
+KSMP 0.0
+SNO30 257.681561121
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2050040100.nc
+KSMP 42.2394256862
+SNO30 121.262948666
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2051040100.nc
+KSMP 15.3801616259
+SNO30 166.999674551
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2052040100.nc
+KSMP 97.5664135493
+SNO30 233.849889756
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2053040100.nc
+KSMP 4.88372684991
+SNO30 207.399744432
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2054040100.nc
+KSMP 159.95983009
+SNO30 440.063526143
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2055040100.nc
+KSMP 25.6655522765
+SNO30 282.856043279
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2056040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2057040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2058040100.nc
+KSMP 72.8612115306
+SNO30 250.027276306
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2059040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2060040100.nc
+KSMP 41.3569439688
+SNO30 182.132268948
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2061040100.nc
+KSMP 0.0
+SNO30 133.722188538
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2062040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2063040100.nc
+KSMP 37.8174265162
+SNO30 43.9130891814
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2064040100.nc
+KSMP 0.0
+SNO30 47.2639666547
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2065040100.nc
+KSMP 27.6248579452
+SNO30 143.086222594
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2066040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2067040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2068040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2069040100.nc
+KSMP 33.0845447861
+SNO30 136.631949045
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2070040100.nc
+KSMP 0.0
+SNO30 115.6846501
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2071040100.nc
+KSMP 0.0
+SNO30 51.3542036921
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2072040100.nc
+KSMP 0.0
+SNO30 37.7913492438
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2073040100.nc
+KSMP 6.59043427799
+SNO30 18.3487045965
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2074040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2075040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2076040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2077040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2078040100.nc
+KSMP 0.0
+SNO30 11.6122971968
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2079040100.nc
+KSMP 0.0
+SNO30 91.8684126341
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2080040100.nc
+KSMP 0.0
+SNO30 6.76380547795
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2081040100.nc
+KSMP 0.0
+SNO30 78.1840977032
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2082040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2083040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2084040100.nc
+KSMP 0.0
+SNO30 42.192944118
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2085040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2086040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2087040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2088040100.nc
+KSMP 9.37718734875
+SNO30 20.7459572933
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2089040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2090040100.nc
+KSMP 217.580322427
+SNO30 450.786032683
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2091040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2092040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2093040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2094040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2095040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2096040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2097040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2098040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/gfdl-cm3/swe/snowrad.2099040100.nc
+KSMP 0.0
+SNO30 0.0571583712314
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1970040100.nc
+KSMP 73.8734199698
+SNO30 205.162161017
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1971040100.nc
+KSMP 518.561711657
+SNO30 782.450418564
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1972040100.nc
+KSMP 130.855838523
+SNO30 353.191054309
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1973040100.nc
+KSMP 458.007034829
+SNO30 732.873186637
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1974040100.nc
+KSMP 293.760065519
+SNO30 533.288789101
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1975040100.nc
+KSMP 664.638542711
+SNO30 900.868850489
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1976040100.nc
+KSMP 1082.33503646
+SNO30 1411.6856625
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1977040100.nc
+KSMP 443.456232056
+SNO30 699.72462618
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1978040100.nc
+KSMP 502.464821013
+SNO30 771.727664427
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1979040100.nc
+KSMP 51.1424483234
+SNO30 232.770660625
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1980040100.nc
+KSMP 441.306158711
+SNO30 674.468777902
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1981040100.nc
+KSMP 212.734277399
+SNO30 381.649278714
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1982040100.nc
+KSMP 136.681759453
+SNO30 385.135509851
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1983040100.nc
+KSMP 371.388509732
+SNO30 629.441503454
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1984040100.nc
+KSMP 0.0
+SNO30 245.689976702
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1985040100.nc
+KSMP 54.9611357507
+SNO30 293.288135964
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1986040100.nc
+KSMP 683.674018471
+SNO30 942.828890016
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1987040100.nc
+KSMP 297.381036669
+SNO30 554.122532196
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1988040100.nc
+KSMP 225.819164499
+SNO30 505.455962767
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1989040100.nc
+KSMP 237.767835126
+SNO30 443.560280838
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1990040100.nc
+KSMP 719.800421899
+SNO30 993.384507534
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1991040100.nc
+KSMP 357.323296514
+SNO30 561.120003829
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1992040100.nc
+KSMP 127.610291904
+SNO30 313.183575846
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1993040100.nc
+KSMP 449.168710038
+SNO30 711.114602995
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1994040100.nc
+KSMP 399.559714232
+SNO30 645.848527991
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1995040100.nc
+KSMP 417.720937335
+SNO30 654.996876579
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1996040100.nc
+KSMP 222.795829253
+SNO30 545.533090461
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1997040100.nc
+KSMP 308.684112089
+SNO30 605.004518118
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1998040100.nc
+KSMP 237.346136367
+SNO30 545.217511214
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.1999040100.nc
+KSMP 529.525831074
+SNO30 808.411905669
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2000040100.nc
+KSMP 282.578789088
+SNO30 515.785362983
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2001040100.nc
+KSMP 59.1266403108
+SNO30 283.956959993
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2002040100.nc
+KSMP 706.572309856
+SNO30 986.168251258
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2003040100.nc
+KSMP 369.670507475
+SNO30 601.661117641
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2004040100.nc
+KSMP 176.585008561
+SNO30 426.034377786
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2005040100.nc
+KSMP 214.839544116
+SNO30 476.940263719
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2006040100.nc
+KSMP 173.34772923
+SNO30 414.368693667
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2007040100.nc
+KSMP 275.157149149
+SNO30 488.440381269
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2008040100.nc
+KSMP 565.311625841
+SNO30 882.724045804
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2009040100.nc
+KSMP 353.304176565
+SNO30 639.799949042
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2010040100.nc
+KSMP 484.094094527
+SNO30 743.490037577
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2011040100.nc
+KSMP 311.111851969
+SNO30 600.055734593
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2012040100.nc
+KSMP 275.2642994
+SNO30 507.500474767
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2013040100.nc
+KSMP 0.0
+SNO30 250.122200113
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2014040100.nc
+KSMP 405.743731588
+SNO30 732.567373889
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2015040100.nc
+KSMP 254.052598166
+SNO30 441.138341684
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2016040100.nc
+KSMP 164.901193428
+SNO30 380.900579391
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2017040100.nc
+KSMP 130.175334839
+SNO30 329.74145217
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2018040100.nc
+KSMP 0.0
+SNO30 94.5716624086
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2019040100.nc
+KSMP 3.9447681168
+SNO30 112.766751712
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2020040100.nc
+KSMP 1.60094680275
+SNO30 159.144631019
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2021040100.nc
+KSMP 0.0
+SNO30 208.186838711
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2022040100.nc
+KSMP 316.867364084
+SNO30 585.579242763
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2023040100.nc
+KSMP 596.644866658
+SNO30 855.208473251
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2024040100.nc
+KSMP 196.980823062
+SNO30 461.590838673
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2025040100.nc
+KSMP 110.047482355
+SNO30 445.081026119
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2026040100.nc
+KSMP 0.0
+SNO30 34.7225607799
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2027040100.nc
+KSMP 0.0
+SNO30 108.415184514
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2028040100.nc
+KSMP 0.0
+SNO30 172.899565906
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2029040100.nc
+KSMP 0.0
+SNO30 226.238600401
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2030040100.nc
+KSMP 345.194861976
+SNO30 592.276375453
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2031040100.nc
+KSMP 341.518348811
+SNO30 515.929281908
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2032040100.nc
+KSMP 295.932230027
+SNO30 496.602087233
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2033040100.nc
+KSMP 164.754905357
+SNO30 388.708530992
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2034040100.nc
+KSMP 290.936179639
+SNO30 552.208934105
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2035040100.nc
+KSMP 96.9244240579
+SNO30 336.464373134
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2036040100.nc
+KSMP 138.041331815
+SNO30 379.666712134
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2037040100.nc
+KSMP 0.0034032521958
+SNO30 250.106441301
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2038040100.nc
+KSMP 157.648634584
+SNO30 429.226340734
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2039040100.nc
+KSMP 0.0
+SNO30 139.776969488
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2040040100.nc
+KSMP 0.0
+SNO30 195.09013646
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2041040100.nc
+KSMP 0.0
+SNO30 158.581067016
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2042040100.nc
+KSMP 7.02351104211
+SNO30 272.627188652
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2043040100.nc
+KSMP 7.05274764785
+SNO30 224.416797271
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2044040100.nc
+KSMP 289.315587009
+SNO30 540.941899361
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2045040100.nc
+KSMP 173.733155849
+SNO30 441.763121769
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2046040100.nc
+KSMP 35.4488917422
+SNO30 287.888905237
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2047040100.nc
+KSMP 50.5881705848
+SNO30 261.626272256
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2048040100.nc
+KSMP 372.672914845
+SNO30 669.696606688
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2049040100.nc
+KSMP 138.374492141
+SNO30 316.510584374
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2050040100.nc
+KSMP 0.0
+SNO30 51.0560576964
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2051040100.nc
+KSMP 357.340566669
+SNO30 694.250707709
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2052040100.nc
+KSMP 483.464328926
+SNO30 792.324387496
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2053040100.nc
+KSMP 0.0
+SNO30 242.704029129
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2054040100.nc
+KSMP 7.25246971563
+SNO30 197.191464368
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2055040100.nc
+KSMP 0.0
+SNO30 77.0279402265
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2056040100.nc
+KSMP 140.396892369
+SNO30 323.401626804
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2057040100.nc
+KSMP 1.41922221838
+SNO30 205.350991529
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2058040100.nc
+KSMP 0.0
+SNO30 109.637524237
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2059040100.nc
+KSMP 393.830028137
+SNO30 661.689058926
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2060040100.nc
+KSMP 29.3497102044
+SNO30 217.010572563
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2061040100.nc
+KSMP 0.0
+SNO30 225.309118785
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2062040100.nc
+KSMP 0.0
+SNO30 63.1171783955
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2063040100.nc
+KSMP 24.3300333792
+SNO30 174.794209344
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2064040100.nc
+KSMP 0.0
+SNO30 29.9642029648
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2065040100.nc
+KSMP 21.9440623459
+SNO30 202.281353612
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2066040100.nc
+KSMP 0.0
+SNO30 154.873983727
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2067040100.nc
+KSMP 88.7306257535
+SNO30 325.852439813
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2068040100.nc
+KSMP 532.58553294
+SNO30 745.339902117
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2069040100.nc
+KSMP 0.0
+SNO30 84.05965918
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2070040100.nc
+KSMP 0.0
+SNO30 81.8573154288
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2071040100.nc
+KSMP 0.0
+SNO30 87.8258220251
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2072040100.nc
+KSMP 0.0
+SNO30 38.6253147084
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2073040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2074040100.nc
+KSMP 18.6930268313
+SNO30 180.054337613
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2075040100.nc
+KSMP 0.0
+SNO30 125.011471702
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2076040100.nc
+KSMP 0.0
+SNO30 128.504731714
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2077040100.nc
+KSMP 163.937029777
+SNO30 388.964267136
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2078040100.nc
+KSMP 17.6219816338
+SNO30 296.082442023
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2079040100.nc
+KSMP 76.8299891021
+SNO30 336.531048355
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2080040100.nc
+KSMP 0.0
+SNO30 51.6094851943
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2081040100.nc
+KSMP 0.0
+SNO30 192.464022821
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2082040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2083040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2084040100.nc
+KSMP 0.0
+SNO30 134.57918577
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2085040100.nc
+KSMP 0.0
+SNO30 4.35241917438
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2086040100.nc
+KSMP 64.4153103338
+SNO30 312.880011879
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2087040100.nc
+KSMP 0.0
+SNO30 109.923010409
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2088040100.nc
+KSMP 0.0
+SNO30 158.196623768
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2089040100.nc
+KSMP 0.0
+SNO30 237.510288996
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2090040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2091040100.nc
+KSMP 0.0
+SNO30 37.4459492178
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2092040100.nc
+KSMP 331.874200575
+SNO30 615.528020658
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2093040100.nc
+KSMP 0.0
+SNO30 120.293171737
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2094040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2095040100.nc
+KSMP 0.0
+SNO30 158.063820323
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2096040100.nc
+KSMP 0.0
+SNO30 23.6408388856
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2097040100.nc
+KSMP 0.0
+SNO30 59.1259852736
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2098040100.nc
+KSMP 88.2580673274
+SNO30 282.500581205
+/home/disk/r2d2/steed/cmip5/rcp8.5/giss-e2-h/swe/snowrad.2099040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1970040100.nc
+KSMP 86.4353441385
+SNO30 181.459066943
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1971040100.nc
+KSMP 240.912515516
+SNO30 354.719325661
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1972040100.nc
+KSMP 554.402503278
+SNO30 740.729979859
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1973040100.nc
+KSMP 374.748991455
+SNO30 571.319267376
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1974040100.nc
+KSMP 154.542782171
+SNO30 321.044939082
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1975040100.nc
+KSMP 41.5440080636
+SNO30 257.755082339
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1976040100.nc
+KSMP 265.026229602
+SNO30 399.502317165
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1977040100.nc
+KSMP 332.652949146
+SNO30 594.764323343
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1978040100.nc
+KSMP 452.225300918
+SNO30 680.818926839
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1979040100.nc
+KSMP 257.694345179
+SNO30 425.570680421
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1980040100.nc
+KSMP 357.993057837
+SNO30 579.997449265
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1981040100.nc
+KSMP 280.643951944
+SNO30 446.561097442
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1982040100.nc
+KSMP 628.328753668
+SNO30 867.300002404
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1983040100.nc
+KSMP 378.178458936
+SNO30 616.995808628
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1984040100.nc
+KSMP 384.306073499
+SNO30 671.690542156
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1985040100.nc
+KSMP 482.532651511
+SNO30 711.711474878
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1986040100.nc
+KSMP 128.894481869
+SNO30 311.274501813
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1987040100.nc
+KSMP 408.053610445
+SNO30 549.923488828
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1988040100.nc
+KSMP 247.044239908
+SNO30 480.370989613
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1989040100.nc
+KSMP 512.51663786
+SNO30 832.545765644
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1990040100.nc
+KSMP 514.933511438
+SNO30 786.096301206
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1991040100.nc
+KSMP 495.404615132
+SNO30 769.969736639
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1992040100.nc
+KSMP 44.0585973786
+SNO30 207.504055968
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1993040100.nc
+KSMP 0.0
+SNO30 79.9083876266
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1994040100.nc
+KSMP 126.366304753
+SNO30 346.609197378
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1995040100.nc
+KSMP 677.906677662
+SNO30 922.265598363
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1996040100.nc
+KSMP 478.658101763
+SNO30 692.581354946
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1997040100.nc
+KSMP 0.0
+SNO30 35.5459281731
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1998040100.nc
+KSMP 58.2859743042
+SNO30 101.860741724
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.1999040100.nc
+KSMP 393.938995234
+SNO30 610.130809358
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2000040100.nc
+KSMP 113.32172194
+SNO30 318.524929087
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2001040100.nc
+KSMP 113.739190748
+SNO30 320.037772068
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2002040100.nc
+KSMP 268.863064202
+SNO30 463.308844987
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2003040100.nc
+KSMP 353.164816716
+SNO30 556.973044144
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2004040100.nc
+KSMP 0.0
+SNO30 124.906109513
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2005040100.nc
+KSMP 0.0
+SNO30 3.6866295068
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2006040100.nc
+KSMP 333.748236147
+SNO30 534.847560276
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2007040100.nc
+KSMP 382.096340167
+SNO30 666.626816752
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2008040100.nc
+KSMP 26.1979158645
+SNO30 243.380622193
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2009040100.nc
+KSMP 0.0066491404094
+SNO30 41.8086723074
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2010040100.nc
+KSMP 80.5670834949
+SNO30 300.771885148
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2011040100.nc
+KSMP 191.207201711
+SNO30 322.201392123
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2012040100.nc
+KSMP 0.0
+SNO30 73.0125780481
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2013040100.nc
+KSMP 0.0
+SNO30 120.562579438
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2014040100.nc
+KSMP 0.0
+SNO30 145.60000949
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2015040100.nc
+KSMP 999.583474125
+SNO30 1283.82927071
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2016040100.nc
+KSMP 81.6340462348
+SNO30 294.412776581
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2017040100.nc
+KSMP 10.0623672884
+SNO30 178.215802321
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2018040100.nc
+KSMP 0.0
+SNO30 26.9723527748
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2019040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2020040100.nc
+KSMP 0.0
+SNO30 11.8911525077
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2021040100.nc
+KSMP 182.800148891
+SNO30 442.787233589
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2022040100.nc
+KSMP 404.835575821
+SNO30 662.301054039
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2023040100.nc
+KSMP 208.82739627
+SNO30 437.29781261
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2024040100.nc
+KSMP 0.0
+SNO30 149.86381414
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2025040100.nc
+KSMP 0.00661826450313
+SNO30 112.886340662
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2026040100.nc
+KSMP 452.846705309
+SNO30 740.306866388
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2027040100.nc
+KSMP 27.727295129
+SNO30 198.492164763
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2028040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2029040100.nc
+KSMP 0.0
+SNO30 83.0301331935
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2030040100.nc
+KSMP 128.791204333
+SNO30 374.324009436
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2031040100.nc
+KSMP 692.934391861
+SNO30 992.508375759
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2032040100.nc
+KSMP 418.045922835
+SNO30 598.522593705
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2033040100.nc
+KSMP 0.0
+SNO30 94.7469246475
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2034040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2035040100.nc
+KSMP 5.4232259861
+SNO30 210.15154831
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2036040100.nc
+KSMP 330.198370652
+SNO30 562.128639321
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2037040100.nc
+KSMP 583.81156443
+SNO30 811.252148022
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2038040100.nc
+KSMP 0.0
+SNO30 2.71601476406
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2039040100.nc
+KSMP 0.0
+SNO30 63.5899714298
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2040040100.nc
+KSMP 73.0450536898
+SNO30 350.2478508
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2041040100.nc
+KSMP 0.0
+SNO30 84.4513944186
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2042040100.nc
+KSMP 26.736136712
+SNO30 212.99779577
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2043040100.nc
+KSMP 0.0
+SNO30 26.022092847
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2044040100.nc
+KSMP 8.64226434673
+SNO30 91.1215242154
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2045040100.nc
+KSMP 321.565544778
+SNO30 557.784031678
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2046040100.nc
+KSMP 361.786772079
+SNO30 561.416094695
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2047040100.nc
+KSMP 6.66160258952
+SNO30 138.350917379
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2048040100.nc
+KSMP 0.0
+SNO30 1.2290951824
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2049040100.nc
+KSMP 285.193284058
+SNO30 495.398765879
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2050040100.nc
+KSMP 150.98004979
+SNO30 445.693479854
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2051040100.nc
+KSMP 576.335946601
+SNO30 836.127738831
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2052040100.nc
+KSMP 133.093339252
+SNO30 268.129497203
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2053040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2054040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2055040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2056040100.nc
+KSMP 85.9053818389
+SNO30 309.052903078
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2057040100.nc
+KSMP 118.841200338
+SNO30 301.463189789
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2058040100.nc
+KSMP 0.0
+SNO30 78.1340370295
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2059040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2060040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2061040100.nc
+KSMP 279.679306068
+SNO30 514.000631771
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2062040100.nc
+KSMP 193.632436982
+SNO30 408.912879937
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2063040100.nc
+KSMP 358.186114827
+SNO30 611.613071351
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2064040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2065040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2066040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2067040100.nc
+KSMP 81.5630316685
+SNO30 238.713107525
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2068040100.nc
+KSMP 469.559287714
+SNO30 719.292247198
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2069040100.nc
+KSMP 68.9904802618
+SNO30 104.927073962
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2070040100.nc
+KSMP 57.8186022705
+SNO30 175.997294331
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2071040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2072040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2073040100.nc
+KSMP 0.520204002497
+SNO30 32.6250381403
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2074040100.nc
+KSMP 289.479354511
+SNO30 541.414626603
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2075040100.nc
+KSMP 14.2605137976
+SNO30 181.746643045
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2076040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2077040100.nc
+KSMP 0.0
+SNO30 195.258894203
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2080040100.nc
+KSMP 321.168362475
+SNO30 502.580085604
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2081040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2082040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2083040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2084040100.nc
+KSMP 42.0652555919
+SNO30 288.717931988
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2085040100.nc
+KSMP 0.0
+SNO30 45.8682136195
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2086040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2087040100.nc
+KSMP 3.10186541207
+SNO30 43.3184424535
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2088040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2089040100.nc
+KSMP 0.0
+SNO30 48.9503037105
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2090040100.nc
+KSMP 0.0
+SNO30 0.525211681173
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2091040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2092040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2093040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2094040100.nc
+KSMP 0.0
+SNO30 82.356439034
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2095040100.nc
+KSMP 0.0
+SNO30 4.77306692065
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2096040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2097040100.nc
+KSMP 0.0
+SNO30 33.629120475
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2098040100.nc
+KSMP 0.0
+SNO30 0.0
+/home/disk/r2d2/steed/cmip5/rcp8.5/miroc5/swe/snowrad.2099040100.nc
+KSMP 0.0
+SNO30 100.799863322
+dts_c   =  [['1970040100'], ['1971040100'], ['1972040100'], ['1973040100'], ['1974040100'], ['1975040100'], ['1976040100'], ['1977040100'], ['1978040100'], ['1979040100'], ['1980040100'], ['1981040100'], ['1982040100'], ['1983040100'], ['1984040100'], ['1985040100'], ['1986040100'], ['1987040100'], ['1988040100'], ['1989040100'], ['1990040100'], ['1991040100'], ['1992040100'], ['1993040100'], ['1994040100'], ['1995040100'], ['1996040100'], ['1997040100'], ['1998040100'], ['1999040100'], ['2000040100'], ['2001040100'], ['2002040100'], ['2003040100'], ['2004040100'], ['2005040100'], ['2006040100'], ['2007040100'], ['2008040100'], ['2009040100'], ['2010040100'], ['2011040100'], ['2012040100'], ['2013040100'], ['2014040100'], ['2015040100'], ['2016040100'], ['2017040100'], ['2018040100'], ['2019040100'], ['2020040100'], ['2021040100'], ['2022040100'], ['2023040100'], ['2024040100'], ['2025040100'], ['2026040100'], ['2027040100'], ['2028040100'], ['2029040100'], ['2030040100'], ['2031040100'], ['2032040100'], ['2033040100'], ['2034040100'], ['2035040100'], ['2036040100'], ['2037040100'], ['2038040100'], ['2039040100'], ['2040040100'], ['2041040100'], ['2042040100'], ['2043040100'], ['2044040100'], ['2045040100'], ['2046040100'], ['2047040100'], ['2048040100'], ['2049040100'], ['2050040100'], ['2051040100'], ['2052040100'], ['2053040100'], ['2054040100'], ['2055040100'], ['2056040100'], ['2057040100'], ['2058040100'], ['2059040100'], ['2060040100'], ['2061040100'], ['2062040100'], ['2063040100'], ['2064040100'], ['2065040100'], ['2066040100'], ['2067040100'], ['2068040100'], ['2069040100'], ['2070040100'], ['2071040100'], ['2072040100'], ['2073040100'], ['2074040100'], ['2075040100'], ['2076040100'], ['2077040100'], ['2080040100'], ['2081040100'], ['2082040100'], ['2083040100'], ['2084040100'], ['2085040100'], ['2086040100'], ['2087040100'], ['2088040100'], ['2089040100'], ['2090040100'], ['2091040100'], ['2092040100'], ['2093040100'], ['2094040100'], ['2095040100'], ['2096040100'], ['2097040100'], ['2098040100'], ['2099040100']]
+dts_all =  [['1970040100'], ['1971040100'], ['1972040100'], ['1973040100'], ['1974040100'], ['1975040100'], ['1976040100'], ['1977040100'], ['1978040100'], ['1979040100'], ['1980040100'], ['1981040100'], ['1982040100'], ['1983040100'], ['1984040100'], ['1985040100'], ['1986040100'], ['1987040100'], ['1988040100'], ['1989040100'], ['1990040100'], ['1991040100'], ['1992040100'], ['1993040100'], ['1994040100'], ['1995040100'], ['1996040100'], ['1997040100'], ['1998040100'], ['1999040100'], ['2000040100'], ['2001040100'], ['2002040100'], ['2003040100'], ['2004040100'], ['2005040100'], ['2006040100'], ['2007040100'], ['2008040100'], ['2009040100'], ['2010040100'], ['2011040100'], ['2012040100'], ['2013040100'], ['2014040100'], ['2015040100'], ['2016040100'], ['2017040100'], ['2018040100'], ['2019040100'], ['2020040100'], ['2021040100'], ['2022040100'], ['2023040100'], ['2024040100'], ['2025040100'], ['2026040100'], ['2027040100'], ['2028040100'], ['2029040100'], ['2030040100'], ['2031040100'], ['2032040100'], ['2033040100'], ['2034040100'], ['2035040100'], ['2036040100'], ['2037040100'], ['2038040100'], ['2039040100'], ['2040040100'], ['2041040100'], ['2042040100'], ['2043040100'], ['2044040100'], ['2045040100'], ['2046040100'], ['2047040100'], ['2048040100'], ['2049040100'], ['2050040100'], ['2051040100'], ['2052040100'], ['2053040100'], ['2054040100'], ['2055040100'], ['2056040100'], ['2057040100'], ['2058040100'], ['2059040100'], ['2060040100'], ['2061040100'], ['2062040100'], ['2063040100'], ['2064040100'], ['2065040100'], ['2066040100'], ['2067040100'], ['2068040100'], ['2069040100'], ['2070040100'], ['2071040100'], ['2072040100'], ['2073040100'], ['2074040100'], ['2075040100'], ['2076040100'], ['2077040100'], ['2078040100'], ['2079040100'], ['2080040100'], ['2081040100'], ['2082040100'], ['2083040100'], ['2084040100'], ['2085040100'], ['2086040100'], ['2087040100'], ['2088040100'], ['2089040100'], ['2090040100'], ['2091040100'], ['2092040100'], ['2093040100'], ['2094040100'], ['2095040100'], ['2096040100'], ['2097040100'], ['2098040100'], ['2099040100']]

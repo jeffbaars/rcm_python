@@ -17,7 +17,7 @@ py_dir     = rcm_dir + '/python'
 plot_dir   = rcm_dir + '/plots'
 pickle_dir = rcm_dir + '/pickle'
 data_dir   = rcm_dir + '/data'
-cdd_dir    = data_dir + '/cdd'
+cdd_data   = data_dir + '/mask_pts.dat'
 mask_file  = data_dir + '/mask_pts.dat'
 
 geo_em    = '/home/disk/a125/steed/run/geo_em.d02.nc'
@@ -74,7 +74,7 @@ for var in vars_mod:
     for s in range(len(seasons)):
         sm = seasons_mo[s]
         season = seasons[s]
-        cdd_file = cdd_dir + '/cdd_' + var + '_' + sm + '_WA.dat'
+        cdd_file = data_dir + '/cdd_' + var + '_' + sm + '_WA.dat'
         print 'reading ', cdd_file
         cdd = open(cdd_file)
         csvReader = csv.reader(cdd)

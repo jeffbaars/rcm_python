@@ -49,8 +49,7 @@ ylims = {
     'T2MEANmax': [-10.0, 50.0],
     'T2MEANavg': [-10.0, 50.0],
     'SPDUV10MEANavg': [0, 5.0],
-    'SPDUV10MAXmax': [0, 20.0],
-    'SNOWtot': [0, 1000.0]
+    'SPDUV10MAXmax': [0, 20.0]    
     }
 labels = {
     'PRECtot':  'Total Precipitation (in.)',
@@ -67,8 +66,7 @@ labels = {
     'T2MEANmax': 'Max Mean Temperature ($^\circ$C)',
     'T2MEANmin': 'Min Mean Temperature ($^\circ$C)',
     'SPDUV10MEANavg': 'Average Wind Speed (m/s)',
-    'SPDUV10MAXmax': 'Maximum Wind Speed (m/s)',
-    'SNOWtot': 'Snow Water Equivalent (mm)'
+    'SPDUV10MAXmax': 'Maximum Wind Speed (m/s)'    
     }
 
 colorbar_labs = {
@@ -1142,74 +1140,6 @@ def ts_mods(statplot, years, obsplot, years_obs, stn, models, titlein, \
     #--- x-axis labels.
     xticks_c = range(0,len(xlabs), 4)
     xlabs_c = [ xlabs[i] for i in xticks_c ]    
-    plt.xticks(xticks_c)
-    plt.tick_params(axis='x', which='major', labelsize=fs-1)
-    ax.set_xticklabels(xlabs_c, rotation=90)        
-    plt.xlabel('Year', fontsize=fs+1)
-
-    plt.title(titlein, fontsize=titlefs, fontweight='bold')
-
-    plt.tight_layout()
-    plt.grid()
-    plt.legend(fontsize = fs-1, loc = 'best')
-
-    print 'xli ', plotfname, ' &'
-    plt.savefig(plotfname)
-    plt.close()
-    
-    return 1
-
-#---------------------------------------------------------------------------
-# Make time series of sent-in data for a set of models for one station.
-#---------------------------------------------------------------------------
-def ts_swe(swe_all, years, obsplot, years_obs, stn, s, models, titlein, \
-           plotfname, var, stat, cols):
-
-    (nm,ns,nf) = swe_all.shape
-    fig, ax = plt.subplots( figsize=(10,6) )
-    lw_sm = 1.8
-
-    #--- Plot models.
-    xlabs = []
-    mod_all = np.ones((len(models),len(years))) * np.nan
-    for m in range(len(models)):
-        mod = models[m]
-
-        swe_plot = []
-        for f in range(nf):
-            swe_plot.append(swe_all[m,s,f])
-
-        plt.plot(swe_plot, label = mod.upper(), color = cols[m], \
-                           linewidth=lw_sm, alpha = 0.23)
-
-    #--- Plot ensemble mean.
-    plt.plot(np.nanmean(swe_all[:,s,:], axis=0), label = 'Ensemble Mean', \
-             color = 'darkgreen', linewidth=2.2)
-    
-#    #--- Plot observations.
-#    otot = []
-#    for y in range(len(years_obs)):
-##        yyyy = years[y]
-#        yyyy = years_obs[y]
-#        for ss in range(len(seasons)):
-#            season = seasons[ss]
-#            key = (season,stn,yyyy)
-#            if (season in seasonsplot):
-#                otot.append(obsplot[key])
-#    plt.plot(otot, label='Observed', color='black', \
-#             linestyle='None', marker='o', markersize=3)
-##    lab_c = 'Obs, ' + str(smooth_fact) + '-pt smoothing'
-##    plt.plot(smooth(otot,smooth_fact), label=lab_c, color='black', \
-##             linewidth=lw_sm)
-
-    #--- y-axis labeling.
-    plt.ylim(ylims[var+stat])
-    plt.ylabel('Seasonal ' + labels[var+stat], fontsize=fs+1)
-    plt.tick_params(axis='y', which='major', labelsize=fs+1)    
-
-    #--- x-axis labels.
-    xticks_c = range(0,len(years), 4)
-    xlabs_c = [ years[i] for i in xticks_c ]    
     plt.xticks(xticks_c)
     plt.tick_params(axis='x', which='major', labelsize=fs-1)
     ax.set_xticklabels(xlabs_c, rotation=90)        

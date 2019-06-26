@@ -204,97 +204,72 @@ for m in range(len(models)):
 #---------------------------------------------------------------------------
 # Make map of Snow Water Equivalent for ensemble mean.
 #---------------------------------------------------------------------------
-#(nx,ny) = lat.shape
-#snowrad_mean = np.ones((nx, ny, len(sdts))) * np.nan
-#var = 'SNOW'
-#for n in range(len(sdts)):
-#    sdt = sdts[n]
-#    edt = edts[n]
-#    yyyy_s = sdt[0:4]
-#    yyyy_e = edt[0:4]        
-#
-#    files = []
-#    dts_all = []
-#    for m in range(len(models)):
-#        model = models[m]
-#        for d in range(len(data_dirs)):
-#            path_c = data_dirs[d] + '/' + model + '/swe/*0401*.nc'
-#            files_c = glob.glob(path_c)
-#        
-#            for f in range(len(files_c)):
-#                if 'snowrad' not in files_c[f]:
-#                    continue
-#
-#                dt_c = re.findall(r'\.(\d{10})\.', files_c[f])
-#
-#                if (dt_c):
-#                    dt_c = dt_c[0]
-#                    yyyymm_c = dt_c[0:6]
-#                    if (yyyymm_c >= sdt and yyyymm_c <= edt):
-#                        files.append(files_c[f])
-#                        dts_all.append(dt_c)
-#                        
-#    #--- Make plot for each zooms.
-##    file_plot = rundir + '/ensmean_' + var + '_apr1_' + \
-##                yyyy_s + '_' + yyyy_e + '.nc'
-#
-#    for f in range(len(files)):
-#        print files[f], dts_all[f]
-#        (vardat, ntimes) = load_wrfout_swe(files[f], [var])
-#        plotdat = vardat[var][:,:,0]
-#        nx,ny = plotdat.shape
-#        if f == 0:
-#            dat_all = np.ones((nx, ny, len(files))) * np.nan
-#        dat_all[:,:,f] = plotdat
-#        print 'np.amax(plotdat) = ', np.amax(plotdat)
-#
-#    snowrad_mean[:,:,n] = np.mean(dat_all, axis=2)
-#    snowrad_std = np.std(dat_all, axis=2)    
-#
-#    print 'np.amax(snowrad_std)  = ', np.amax(snowrad_std)
-#    print 'np.amax(snowrad_mean) = ', np.amax(snowrad_mean[:,:,n])
-#    print 'np.amax(dat_all[:,:,0]) = ', np.amax(dat_all[:,:,0])
-#    print 'np.amax(dat_all[:,:,1]) = ', np.amax(dat_all[:,:,1])            
-#
-#    for z in range(len(zooms)):
-#        titlein = 'Ensemble Mean, ' + var_lab[var] + ', ' + \
-#                  'Apr 1st, ' + yyyy_s + ' - ' + yyyy_e
-#        plotfname = rundir + '/ensmean_' + sdt + '_' + \
-#                    edt + '_apr1_' + var + '_' + zooms[z] + '.png'
-#        mapper(var, lat, lon, snowrad_mean[:,:,n], levs_swe, cmap_swe, \
-#               maplw, colorbar_labs[var], titlein, plotfname, \
-#               zooms[z])
-#
-#        titlein = 'Ensemble Standard Deviation, ' + var_lab[var] + ', ' + \
-#                  'Apr 1st, ' + yyyy_s + ' - ' + yyyy_e
-#        plotfname = rundir + '/ensstd_' + sdt + '_' + \
-#                    edt + '_apr1_' + var + '_' + zooms[z] + '.png'
-#        mapper(var, lat, lon, snowrad_std, levs_swe, cmap_swe, \
-#               maplw, colorbar_labs[var], titlein, plotfname, \
-#               zooms[z])
-#
-
-pf = pickle_dir + '/swe_mean.pkl'
-#pickle.dump((snowrad_mean), open(pf,'wb'), -1)
-
-(snowrad_mean) = pickle.load(open(pf, 'rb'))
 var = 'SNOW'
-for n in range(1,len(sdts)):
-    diff_c = snowrad_mean[:,:,n] - snowrad_mean[:,:,0]
-    dttit = '(' + sdts[n][0:4] + '-' + edts[n][0:4] + ') - ' + \
-            '(' + sdts[0][0:4] + '-' + edts[0][0:4] + ')'
+for n in range(len(sdts)):
+    sdt = sdts[n]
+    edt = edts[n]
+    yyyy_s = sdt[0:4]
+    yyyy_e = edt[0:4]        
 
-    print diff_c
-    print np.amin(diff_c)
-    print np.amax(diff_c)
-    print diff_c.shape
-    
+    files = []
+    dts_all = []
+    for m in range(len(models)):
+        model = models[m]
+        for d in range(len(data_dirs)):
+            path_c = data_dirs[d] + '/' + model + '/swe/*0401*.nc'
+            files_c = glob.glob(path_c)
+        
+            for f in range(len(files_c)):
+                if 'snowrad' not in files_c[f]:
+                    continue
+
+                dt_c = re.findall(r'\.(\d{10})\.', files_c[f])
+
+                if (dt_c):
+                    dt_c = dt_c[0]
+                    yyyymm_c = dt_c[0:6]
+                    if (yyyymm_c >= sdt and yyyymm_c <= edt):
+                        files.append(files_c[f])
+                        dts_all.append(dt_c)
+                        
+    #--- Make plot for each zooms.
+#    file_plot = rundir + '/ensmean_' + var + '_apr1_' + \
+#                yyyy_s + '_' + yyyy_e + '.nc'
+
+    for f in range(len(files)):
+        print files[f], dts_all[f]
+        (vardat, ntimes) = load_wrfout_swe(files[f], [var])
+        plotdat = vardat[var][:,:,0]
+        nx,ny = plotdat.shape
+        if f == 0:
+            dat_all = np.ones((nx, ny, len(files))) * np.nan
+        dat_all[:,:,f] = plotdat
+        print 'np.amax(plotdat) = ', np.amax(plotdat)
+
+#    sys.exit()
+
+    snowrad_mean = np.mean(dat_all, axis=2)
+    snowrad_std = np.std(dat_all, axis=2)    
+
+    print 'np.amax(snowrad_std)  = ', np.amax(snowrad_std)
+    print 'np.amax(snowrad_mean) = ', np.amax(snowrad_mean)
+    print 'np.amax(dat_all[:,:,0]) = ', np.amax(dat_all[:,:,0])
+    print 'np.amax(dat_all[:,:,1]) = ', np.amax(dat_all[:,:,1])            
+
     for z in range(len(zooms)):
-        titlein = 'Apr 1st ' + var_lab[var] + \
-                  ', Ensemble Mean Difference, ' + ', ' + dttit
-        plotfname = rundir + '/ensmean_diff_' + sdts[n] + '_' + \
-                    edts[n] + '_apr1_' + var + '_' + zooms[z] + '.png'
-        mapper(var, lat, lon, diff_c, levs_swe_diff, cmap_swe_diff, \
+        titlein = 'Ensemble Mean, ' + var_lab[var] + ', ' + \
+                  'Apr 1st, ' + yyyy_s + ' - ' + yyyy_e
+        plotfname = rundir + '/ensmean_' + sdt + '_' + \
+                    edt + '_apr1_' + var + '_' + zooms[z] + '.png'
+        mapper(var, lat, lon, snowrad_mean, levs_swe, cmap_swe, \
+               maplw, colorbar_labs[var], titlein, plotfname, \
+               zooms[z])
+
+        titlein = 'Ensemble Standard Deviation, ' + var_lab[var] + ', ' + \
+                  'Apr 1st, ' + yyyy_s + ' - ' + yyyy_e
+        plotfname = rundir + '/ensstd_' + sdt + '_' + \
+                    edt + '_apr1_' + var + '_' + zooms[z] + '.png'
+        mapper(var, lat, lon, snowrad_std, levs_swe, cmap_swe, \
                maplw, colorbar_labs[var], titlein, plotfname, \
                zooms[z])
 

@@ -19,18 +19,20 @@ rcm_dir    = '/home/disk/spock/jbaars/rcm'
 py_dir     = rcm_dir + '/python'
 plot_dir   = rcm_dir + '/plots'
 pickle_dir = rcm_dir + '/pickle'
-obs_dir    = rcm_dir + '/obs'
+data_dir   = rcm_dir + '/data'
+snotel_dir = data_dir + '/snotel'
 run_dirs   = rcm_dir + '/rundirs'
 geo_em     = rcm_dir + '/data' + '/geo_em.d02.nc'
 data_dirs  = ['/home/disk/r2d2/steed/cmip5/rcp8.5', \
               '/home/disk/vader/steed/cmip5/rcp8.5', \
               '/home/disk/jabba/steed/cmip5/rcp8.5']
-station_file = obs_dir + '/station_file_swe.txt'
+station_file = data_dir + '/station_file_swe.txt'
 
 #---------------------------------------------------------------------------
 # Settings.
 #---------------------------------------------------------------------------
 varswe = 'SNOW'
+stat = 'tot'
 
 sdt = '197001'
 edt = '209912'
@@ -38,6 +40,9 @@ edt = '209912'
 models = ['access1.0', 'access1.3', 'bcc-csm1.1', 'canesm2', \
           'ccsm4', 'csiro-mk3.6.0', 'fgoals-g2', 'gfdl-cm3', \
           'giss-e2-h', 'miroc5', 'mri-cgcm3', 'noresm1-m']
+mod_cols = ['indigo', 'blue', 'deepskyblue', \
+            'darkgreen', 'lime', 'yellow', \
+            'magenta', 'red', 'salmon', 'gray', 'darkgray', 'lightblue']
 
 yyyy_s = sdt[0:4]
 yyyy_e = edt[0:4]        
@@ -46,10 +51,11 @@ yyyy_e = edt[0:4]
 # Load stations file.
 #---------------------------------------------------------------------------
 print 'Loading ', station_file
-stns   = []
-latpts = []
-lonpts = []
-elevs  = []
+stns      = []
+latpts    = []
+lonpts    = []
+elevs     = []
+stn_names = []
 with open(station_file) as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
@@ -71,7 +77,7 @@ print 'Loading ', geo_em
 pfswe = pickle_dir + '/swe_stns.pkl'
 if os.path.isfile(pfswe):
     print 'Loading ', pfswe
-    (stns, dts, swe_all) = pickle.load(open(pfswe, 'rb'))
+    (stns, dts_all, swe_all) = pickle.load(open(pfswe, 'rb'))
 else:
     for m in range(len(models)):
         model = models[m]
@@ -126,26 +132,34 @@ else:
     pickle.dump((stns, dts_all, swe_all), open(pfswe,'wb'), -1)
 
 #---------------------------------------------------------------------------
-# 
+# nan out 1970, because that's a partial winter given models started 01/01/70.
+#---------------------------------------------------------------------------
+swe_all[:,:,0] = np.nan
+
+#---------------------------------------------------------------------------
+# Get years from dts_all.
+#---------------------------------------------------------------------------
+years = []
+for d in range(len(dts_all)):
+    years.append(dts_all[d][0][0:4])
+
+#---------------------------------------------------------------------------
+# Make plots using ts_swe.
 #---------------------------------------------------------------------------
 (nm,ns,nf) = swe_all.shape
 for s in range(len(stns)):
-    plotfname = get_plotfname(plot_dir,stn,sdt,edt,season,var,stat)
-    titlein = get_title(season,stn,var,stat,yy_mod[var,stat])
-    iret = ts_swe(mod[var,stat],yy_mod[var,stat], \
-                   obs[varo,stat],yy_obs[varo,stat], stn, \
-                   models, titlein, plotfname, var, stat, \
-                   mod_cols, [season])
+    stn = stns[s]
+    plotfname = plot_dir + '/' + stn + '_' + sdt + '_' + edt + '_swe.png'
+    titlein = station_name_dict[stn] + ' (' + stn.upper() + '), ' + \
+              labels[varswe+stat] + ', ' + \
+              str(years[0]) + ' - ' + str(years[len(years)-1])
 
-    for m in range(len(models)):
-        model = models[m]
-
-        swe_plot = []
-        for f in range(nf):
-            swe_plot.append(swe_all[m,s,f])
-
-        print swe_plot
-        sys.exit()
+    #--- need to get obs and read them...
+    obs = []
+    obs_years = []
+    
+    iret = ts_swe(swe_all, years, obs, obs_years, stn, s, models, titlein, \
+                  plotfname, varswe, stat, mod_cols)
         
 
 sys.exit()
