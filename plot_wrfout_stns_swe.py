@@ -126,7 +126,6 @@ else:
                 dat_interp = bilinear_interpolate(lat, lon, \
                                                   vardat[varswe][:,:,0], \
                                                   latpts[s], lonpts[s], 0)
-                print stns[s], dat_interp
                 swe_all[m,s,f] = dat_interp
 
         #--- Initialize our dates array if this is the first model.  Otherwise
