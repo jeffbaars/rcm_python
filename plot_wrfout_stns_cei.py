@@ -32,7 +32,7 @@ vars_mod = ['PREC', 'T2MAX', 'T2MIN', 'T2MEAN']
 
 sdt = '197001'
 #edt = '209912'
-edt = '202912'
+edt = '197912'
 
 #--- GHCND data downloaded through June 2019, so 2019 is a partial year, so
 #--- only include obs through 2018.
@@ -101,7 +101,8 @@ else:
                              data_dirs, sdt, edt, vars_mod, pickle_dir, 0)
 sys.exit()
 
-pf_all = pickle_dir + '/mod_daily.pkl'
+#pf_all = pickle_dir + '/mod_daily.pkl'
+pf_all = 'junk'
 if os.path.isfile(pf_all):
     print 'Loading ', pf_all
     (mod_all, mod_dts_all) = pickle.load(open(pf_all, 'rb'))
@@ -115,8 +116,8 @@ else:
         (model, data_c, dts_unique, vars, stns) = pickle.load(open(pf, 'rb'))
         mod_all[model] = data_c
         mod_dts_all = mod_dts_all + dts_unique
-    print 'Creating ', pf_all
-    pickle.dump((mod_all, mod_dts_all), open(pf_all,'wb'), -1)
+#    print 'Creating ', pf_all
+#    pickle.dump((mod_all, mod_dts_all), open(pf_all,'wb'), -1)
 
 #---------------------------------------------------------------------------
 # 

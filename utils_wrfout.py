@@ -1305,15 +1305,15 @@ def load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
                     if keymax in data_all and keymin in data_all:
                         keymean = ('T2MEAN', stns[ns], dts_unique[d])
 
-                        if data_all[keymax] < (273-60) or \
-                           data_all[keymax] > (273+60) or \
-                           data_all[keymin] < (273-60) or \
-                           data_all[keymin] > (273+60):
-                            print 'stns[ns] = ', stns[ns]
-                            print 'dts_unique[d] = ', dts_unique[d]
-                            print 'max = ', data_all[keymax]
-                            print 'min = ', data_all[keymin]
-#                            sys.exit()
+#                        if data_all[keymax] < (273-60) or \
+#                           data_all[keymax] > (273+60) or \
+#                           data_all[keymin] < (273-60) or \
+#                           data_all[keymin] > (273+60):
+#                            print 'stns[ns] = ', stns[ns]
+#                            print 'dts_unique[d] = ', dts_unique[d]
+#                            print 'max = ', data_all[keymax]
+#                            print 'min = ', data_all[keymin]
+##                            sys.exit()
                         
                         data_all[keymean] = np.mean([data_all[keymax], \
                                                      data_all[keymin]])
