@@ -36,7 +36,8 @@ edt = '197912'
 
 #--- GHCND data downloaded through June 2019, so 2019 is a partial year, so
 #--- only include obs through 2018.
-edt_obs = '201812' 
+#edt_obs = '201812'
+edt_obs = '197912' 
 
 var_obs_dict = {
     'PREC': 'PRCP',
@@ -51,9 +52,10 @@ stats_dict = {
     'T2MEAN': ['min', 'max', 'avg'],    
     }
 
-models = ['access1.0', 'access1.3', 'bcc-csm1.1', 'canesm2', \
-          'ccsm4', 'csiro-mk3.6.0', 'fgoals-g2', 'gfdl-cm3', \
-          'giss-e2-h', 'miroc5', 'mri-cgcm3', 'noresm1-m']
+#models = ['access1.0', 'access1.3', 'bcc-csm1.1', 'canesm2', \
+#          'ccsm4', 'csiro-mk3.6.0', 'fgoals-g2', 'gfdl-cm3', \
+#          'giss-e2-h', 'miroc5', 'mri-cgcm3', 'noresm1-m']
+models = ['access1.0', 'access1.3']
 
 mod_cols = ['indigo', 'blue', 'deepskyblue', \
             'darkgreen', 'lime', 'yellow', \
@@ -82,7 +84,7 @@ vars_obs = []
 for var in vars_mod:
     vars_obs.append(var_obs_dict[var])
 
-pf = pickle_dir + '/obs_daily.pkl'
+pf = pickle_dir + '/obs_daily_test.pkl'
 if os.path.isfile(pf):
     print 'Loading ', pf
     (obs_all, obs_dts_all, stns, latpts, lonpts, elevs) = \
@@ -96,10 +98,10 @@ else:
 #---------------------------------------------------------------------------
 # Load model data.
 #---------------------------------------------------------------------------
-(data_all, dts_unique, models, vars_all, stns) = \
-           load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
-                             data_dirs, sdt, edt, vars_mod, pickle_dir, 0)
-sys.exit()
+#(data_all, dts_unique, models, vars_all, stns) = \
+#           load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
+#                             data_dirs, sdt, edt, vars_mod, pickle_dir, 0)
+#sys.exit()
 
 #pf_all = pickle_dir + '/mod_daily.pkl'
 pf_all = 'junk'
@@ -122,6 +124,6 @@ else:
 #---------------------------------------------------------------------------
 # 
 #---------------------------------------------------------------------------
-
+test = get_daily_perc(mod_all, mod_dts_all
 
 sys.exit()
