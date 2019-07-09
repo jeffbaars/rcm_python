@@ -4,6 +4,7 @@ import numpy as np
 from utils_wrfout import *
 from utils_date import *
 from utils_ghcnd_obs import *
+from utils_cei import *
 import cPickle as pickle  #-- cPickle is faster, but deprecated in python 3.0
 import csv
 
@@ -124,6 +125,6 @@ else:
 #---------------------------------------------------------------------------
 # 
 #---------------------------------------------------------------------------
-test = get_daily_perc(mod_all, mod_dts_all
+daily_perc_mxmn = get_daily_perc_mxmn(models, stns, mod_all, mod_dts_all, sdt)
 
 sys.exit()
