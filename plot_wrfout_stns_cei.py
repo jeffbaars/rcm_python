@@ -78,32 +78,27 @@ with open(station_file) as csv_file:
         lonpts.append(float(row[2]))
         elevs.append(float(row[3]))
 
-#---------------------------------------------------------------------------
-# Load GHCND obs.
-#---------------------------------------------------------------------------
-vars_obs = []
-for var in vars_mod:
-    vars_obs.append(var_obs_dict[var])
-
-pf = pickle_dir + '/obs_daily_test.pkl'
-if os.path.isfile(pf):
-    print 'Loading ', pf
-    (obs_all, obs_dts_all, stns, latpts, lonpts, elevs) = \
-               pickle.load(open(pf, 'rb'))
-else:
-    (obs_all, obs_dts_all) = read_ghcnd(stns, vars_obs, ghcnd_dir, sdt, edt_obs)
-    print 'Creating ', pf
-    pickle.dump((obs_all, obs_dts_all, stns, latpts, lonpts, elevs), \
-                open(pf,'wb'), -1)
-
+##---------------------------------------------------------------------------
+## Load GHCND obs.
+##---------------------------------------------------------------------------
+#vars_obs = []
+#for var in vars_mod:
+#    vars_obs.append(var_obs_dict[var])
+#
+#pf = pickle_dir + '/obs_daily_test.pkl'
+#if os.path.isfile(pf):
+#    print 'Loading ', pf
+#    (obs_all, obs_dts_all, stns, latpts, lonpts, elevs) = \
+#               pickle.load(open(pf, 'rb'))
+#else:
+#    (obs_all, obs_dts_all) = read_ghcnd(stns, vars_obs, ghcnd_dir, sdt, edt_obs)
+#    print 'Creating ', pf
+#    pickle.dump((obs_all, obs_dts_all, stns, latpts, lonpts, elevs), \
+#                open(pf,'wb'), -1)
+#
 #---------------------------------------------------------------------------
 # Load model data.
 #---------------------------------------------------------------------------
-#(data_all, dts_unique, models, vars_all, stns) = \
-#           load_extract_data(geo_em, stns, latpts, lonpts, elevs, models, \
-#                             data_dirs, sdt, edt, vars_mod, pickle_dir, 0)
-#sys.exit()
-
 #pf_all = pickle_dir + '/mod_daily.pkl'
 pf_all = 'junk'
 if os.path.isfile(pf_all):
@@ -125,6 +120,14 @@ else:
 #---------------------------------------------------------------------------
 # 
 #---------------------------------------------------------------------------
-daily_perc_mxmn = get_daily_perc_mxmn(models, stns, mod_all, mod_dts_all, sdt)
+pf = pickle_dir + '/cei_daily_perc_mxmn.pkl'
+if os.path.isfile(pf):
+    (daily_perc_mxmn) = pickle.load(open(pf, 'rb'))
+else:
+    daily_perc_mxmn = get_daily_perc_mxmn(models, stns, mod_all, sdt)
+    print 'Creating ', pf
+    pickle.dump((daily_perc_mxmn), open(pf,'wb'), -1)
+
+test = get_monthly_mxmn(daily_perc_mxmn, mod_all, models, stns, sdt)
 
 sys.exit()

@@ -3,6 +3,8 @@ import  os, os.path, time, glob, re, string
 import sys, string, readline, datetime, time
 import numpy as np
 
+dtfmt = '%Y%m%d%H'
+
 #-----------------------------------------------------------------------------
 # Get list of dates given start date, end date, and time step in minutes.
 #-----------------------------------------------------------------------------
