@@ -124,6 +124,7 @@ else:
 #---------------------------------------------------------------------------
 pf = pickle_dir + '/cei_daily_perc_mxmn.pkl'
 if os.path.isfile(pf):
+    print 'Loading ', pf
     (daily_perc_mxmn) = pickle.load(open(pf, 'rb'))
 else:
     daily_perc_mxmn = get_daily_perc_mxmn(models, stns, mod_all, sdt)

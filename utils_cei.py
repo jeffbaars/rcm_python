@@ -97,7 +97,7 @@ def get_monthly_mxmn(daily_perc, mod_all, models, stns, sdt):
                 key   = ('T2MAX', stn, fdate)
                 keydp = (model, 'T2MAX', stn, fdate)                
 
-                if mod_all[key] > daily_perc[keydp]
+#                if mod_all[key] > daily_perc[keydp]
 
                 print fdate
             sys.exit()
