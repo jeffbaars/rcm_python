@@ -2,7 +2,7 @@
 import os, sys, glob, re, math
 import numpy as np
 from collections import defaultdict
-from utils_cmap import *
+from netCDF4 import Dataset as NetCDFFile
 import pickle
 from utils_date import *
 from utils_stats import *
